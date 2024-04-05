@@ -1,1 +1,11 @@
-# Fresh-Harvest-Box
+Fresh-Harvest-Box
+Project - Group #7
+
+Osoby w grupie:
+• Mikołaj Drozd
+• Mikołaj Szambelan
+• Piotr Błoch
+• Piotr Wagner
+• Rafał Szymanek
+• Sebastian Stobiecki
+• Szymon Podbielski
