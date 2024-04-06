@@ -28,19 +28,21 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
-  max-height: 502px;
+  height: 502px;
   padding-bottom: 80px;
 }
 
 .kiwi-photo {
   border-radius: 20px;
   width: 792px;
+  height: 502px;
   object-fit: cover;
 }
 
 .blueberries-photo {
   border-radius: 20px;
   object-fit: cover;
+  height: 502px;
 }
 
 .contacts-paragraph {
@@ -54,6 +56,7 @@ body {
   max-width: 492px;
   margin: auto;
   padding-bottom: 80px;
+  padding-top: 80px;
 }
 
 .contacts-label {
@@ -124,6 +127,16 @@ body {
     max-width: 704px;
     margin: auto;
   }
+
+  .kiwi-photo {
+    width: 344px;
+    height: 480px;
+  }
+
+  .blueberries-photo {
+    width: 344px;
+    height: 480px;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 767px) {
@@ -143,6 +156,11 @@ body {
     width: 335px;
     height: 476px;
     margin: auto;
+  }
+
+  .kiwi-photo {
+    width: 335px;
+    height: 476px;
   }
 
   .blueberries-photo {
