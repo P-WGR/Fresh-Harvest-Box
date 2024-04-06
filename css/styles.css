@@ -175,3 +175,38 @@ body {
     display: none;
   }
 } /*Koniec sekcji 4 - SZYMON PODBIELSKI*/
+/* <!-- Sekcja-do-zamawiania-i-pop-up Rafał Szymanek --> */
+.modal {
+  background-color: #ffffff;
+}
+.card-order-1 {
+  background-color: #f8766b;
+}
+.card-order-2 {
+  background-color: #edd251;
+}
+.card-order-3 {
+  background-color: #9dc262;
+}
+.pop-up-thank-you {
+  background-color: #e03f5e;
+}
+@media screen and (min-width: 375px) {
+  .modal {
+    width: 335px;
+    height: 902px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 703px;
+    height: 853px;
+  }
+}
+@media screen (min-width: 1280px) {
+  .modal {
+    width: 891px;
+    height: 911px;
+  }
+}
+/* <!-- Koniec sekcji-do-zamawiania-i-pop-up Rafał Szymanek --> */
