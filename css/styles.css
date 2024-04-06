@@ -103,4 +103,57 @@ body {
   background-color: #ffffff;
   color: #9dc162;
 }
-/*Koniec sekcji 4 - SZYMON PODBIELSKI*/
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .contacts-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    width: 648px;
+    height: 108px;
+    margin-bottom: -29px;
+  }
+
+  .contacts-images {
+    height: 480px;
+    max-width: 704px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .contacts-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    max-width: 335px;
+    max-height: 90px;
+  }
+  .contacts-images {
+    width: 335px;
+    height: 476px;
+    margin: auto;
+  }
+
+  .blueberries-photo {
+    display: none;
+  }
+
+  .contacts-paragraph {
+    display: none;
+  }
+
+  .contacts-form {
+    display: none;
+  }
+} /*Koniec sekcji 4 - SZYMON PODBIELSKI*/
