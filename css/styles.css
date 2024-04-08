@@ -272,7 +272,15 @@
     .menu-hamburger {
       display: none;
     }
+    .contacts-title {
+        font-size: 50px;
+    }
   }
   
   /* --------- DESKTOP *1280px* ----------*/
-  
+  @media screen and (min-width: 1280px) {
+    .contacts-title {
+        font-size: 64px;
+
+    }
+  }
