@@ -92,6 +92,10 @@ body {
   color: #fff;
 }
 
+.contacts-email:invalid {
+  border-color: red;
+}
+
 .contacts-button {
   background-color: #9dc162;
   border: none;
@@ -175,3 +179,123 @@ body {
     display: none;
   }
 } /*Koniec sekcji 4 - SZYMON PODBIELSKI*/
+
+/* Stopka - SZYMON PODBIELSKI */
+footer {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  height: 377px;
+}
+
+.footer-container {
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-img-and-logo {
+  padding: 80px 0 20px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.woman-with-bananas {
+  border-radius: 100px;
+  padding-bottom: 20px;
+}
+
+.footer-logo {
+  display: flex;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.footer-logo-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.footer-logo-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ae1332;
+  margin: 0;
+}
+
+.footer-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding-top: 164px;
+}
+
+.footer-nav-link {
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #ae1332;
+}
+
+.footer-socials-and-address {
+  padding-top: 80px;
+}
+
+.footer-social-media-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-social-media-icon {
+  width: 44px;
+  height: 44px;
+  padding: 8px;
+  border: 1px solid #ae1332;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.footer-social-media-icon:hover {
+  background-color: #ae13321a;
+}
+
+.footer-tel-and-location {
+}
+
+.footer-tel {
+  display: block;
+  margin-top: 40px;
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33333;
+  text-transform: uppercase;
+  color: #ae1332;
+  padding-bottom: 20px;
+}
+
+.footer-location {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: -0.02em;
+  color: #ae1332;
+  text-decoration: none;
+}
+
+/* koniec stopki - SZYMON PODBIELSKI */
