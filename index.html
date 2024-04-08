@@ -6,50 +6,87 @@
     <title>Fresh Harvest Box</title>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <!--Sekcja 4 - SZYMON PODBIELSKI-->
-    <section class="contacts">
-      <h2 class="contacts-title">Fresh harvest box has got you covered</h2>
-      <div class="contacts-images">
-        <img
-          class="kiwi-photo"
-          src="./images/Kiwi.jpg"
-          srcset="./images/Kiwi.jpg 1x ./images/Kiwi@2x.jpg 2x"
-          alt="Kiwi" />
-        <img
-          class="blueberries-photo"
-          src="./images/Blueberries.jpg"
-          srcset="./images/Blueberries.jpg 1x ./images/Blueberries@2x.jpg 2x"
-          alt="Blueberries" />
+    <!-------------HEADER SEBASTIAN STOBIECKI------------->
+    <header class="header-style">
+      <nav class="menu">
+        <div class="menu-container">
+              <ul class="header-menu">
+                <li class="menu-point"><a href=""></a>How it works</li>
+                <li class="menu-point"><a href=""></a>Fruits</li>
+                <li class="menu-point"><a href=""></a>Contacts</li>
+              </ul>
+            <div class="logo-container">
+                <svg class="main-logo">
+                    <use href="./images/icons.svg#icon-logo"></use>
+                </svg>
+                <p class="logo-title">FRESH HARVEST BOX</p>
+            </div>
+          <svg class="busket-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-basket"></use>
+          </svg> 
+          <button type="button" class="hamburger-btn">
+            <svg class="hamburger-btn-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-gg_menu-left"></use>
+            </svg>
+          </button>
+        </div>
+      </nav>
+
+      <!---HAMBURGER MENU START--->
+      <div class="menu-hamburger is-open-ham">
+        <div class="menu-ham">
+          <div class="menu-container-ham-header">
+            <div class="logo-container">
+              <svg class="main-logo">
+                <use href="./images/icons.svg#icon-logo"></use>
+              </svg>
+              <p class="logo-title">FRESH HARVEST BOX</p>
+            </div>
+            <button type="button" class="ham-close-btn">
+              <svg class="hamburger-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-x"></use>
+              </svg>
+            </button>
+          </div>
+          <ul class="header-menu-ham">
+            <li class="menu-point-ham"><a href=""></a>How it works</li>
+            <li class="menu-point-ham"><a href=""></a>Fruits</li>
+            <li class="menu-point-ham"><a href=""></a>Contacts</li>
+            <li class="menu-point-ham"><a href=""></a>
+              <svg class="busket-icon-ham" width="24" height="24">
+                <use href="./images/icons.svg#icon-basket-ham"></use>
+          </svg> 
+            </li>
+          </ul>        
+        </div>
       </div>
-      <div>
-        <p class="contacts-paragraph">
-          Our boxes are packed with delicious, nutritious fruits and vegetables,
-          perfect for anyone looking to eat healthier or support local farmers.
-          Order your box today and start enjoying the best that nature has to
-          offer!
-        </p>
-      </div>
-      <form class="contacts-form">
-        <label class="contacts-label">
-          <input
-            type="email"
-            name="contacts-email"
-            class="contacts-email"
-            placeholder="Enter email..." />
-          <button type="submit" class="contacts-button">Send</button>
-        </label>
-      </form>
-    </section>
-    <!--koniec sekcji 4 - SZYMON PODBIELSKI-->
+      <!--HAMBURGER MENU END-->
+    </header>
+    <!-------------HERO SECTION SEBASTIAN STOBIECKI------------->
+    <section class="section-one">
+      <div class="container"></div>
+         <h2 class="contacts-title">FRESH HARVEST BOX IS YOUR ONE-STOP PLACE FOR A DELICIOUS FRUIT BASKET</h2>
+        <div class="part-one container">
+        <img class="blur-img banana-img" src="./images/banana-small.png" alt="banana photo">
+        <img class="blur-img strawberry-img" src="./images/strawberry-small.png" alt="strawberry photo">
+        
+        <img class="red-head-img" src="./images/redhairgirl.jpg" alt="Red hair girl photo">
+        <button class="shopnow-btn">
+          <p class="shopnow-text">SHOP<br>NOW</p>
+          </button>
+        </div>
+      </section>
   </body>
 </html>
