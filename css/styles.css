@@ -1,3 +1,194 @@
+/*Sekcja 3 - PIOTR BŁOCH */
+
+.fruits-container {
+  width: 1216px;
+  gap: 44px;
+  margin: 0 auto;
+}
+
+.fruits-text {
+  width: 624px;
+  margin: 0 auto;
+}
+.fruits-title {
+  text-transform: uppercase;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #ffffff;
+}
+.fruits-paragraph {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.fruits-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  padding: 0;
+}
+.fruits-li-div {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 465px;
+  width: 389px;
+  border-radius: 20px;
+  margin-bottom: 0px;
+}
+
+.fruits-li-div > .fruits-li-h3 {
+  position: absolute;
+  top: 64px;
+  left: 24px;
+  margin: 0;
+
+  font-family: DM Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: #ffffff;
+}
+.fruits-li-div > .fruits-li-p {
+  position: absolute;
+  top: 109px;
+  left: 24px;
+  margin: 0;
+
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.fruits-li-div > .fruits-img {
+  position: absolute;
+  top: 137px;
+  left: 47px;
+  margin: 0;
+}
+
+
+
+.fruits-li-div > .fruits-price {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 393px;
+  left: 24px;
+  margin: 0;
+  width: 136px;
+  height: 48px;
+  background-color: #ffffff;
+  border-radius: 200px;
+}
+
+.fruits-li-price {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  color: #ae1332;
+  margin: 0 0;
+}
+
+.fruits-li {
+  padding: 0;
+}
+
+.fruits-li:nth-child(1) > .fruits-li-div {
+  background-color: #f8766b;
+}
+.fruits-li:nth-child(2) > .fruits-li-div {
+  background-color: #EDD251;
+}
+.fruits-li:nth-child(3) > .fruits-li-div {
+  background-color: #9DC262;
+}
+.fruits-li:nth-child(4) > .fruits-li-div {
+  background-color: #BFD663;
+}
+.fruits-li:nth-child(5) > .fruits-li-div {
+  background-color: #E93F29;
+}
+.fruits-li:nth-child(6) > .fruits-li-div {
+  background-color: #DB4F4B;
+}
+.fruits-li:nth-child(7) > .fruits-li-div {
+  background-color: #9B5366;
+}
+.fruits-li:nth-child(8) > .fruits-li-div {
+  background-color: #F47F4C;
+}
+.fruits-li:nth-child(9) > .fruits-li-div {
+  background-color: #98B37E;
+}
+
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1279px)  {
+
+  .fruits-container {
+  max-width: 768px;
+}
+
+.fruits-li-div {
+  height: 465px;
+  width: 344px;
+}
+
+.fruits-li-div > .fruits-img {
+  position: absolute;
+  top: 137px;
+  left: 25px;
+  margin: 0;
+}
+
+
+
+}
+
+/* SMARTPHONE */
+@media (max-width: 767px) {
+
+  .fruits-container {
+  max-width: 375px;
+}
+
+.fruits-li-div {
+  height: 465px;
+  width: 335px;
+}
+
+.fruits-text {
+  width: 335px;
+  margin: 0 auto;
+}
+
+}
+
+
+
+
+/*Sekcja 3 - PIOTR BŁOCH*/
+
 /*Sekcja 4 - SZYMON PODBIELSKI*/
 body {
   background-color: #ae1332;
