@@ -131,9 +131,9 @@ body {
   transform: translateX(100%);
 }
 
-.menu-hamburger.is-open-ham {
+/*.menu-hamburger.is-open-ham {
   transform: translateX(0);
-}
+} */
 
 .ham-list {
   justify-content: space-between;
@@ -155,9 +155,7 @@ body {
 /* -------------------> Hero style <------------------- */
 /*Part1*/
 
-.section-one {
-  background-color: #ae1332;
-}
+
 .shopnow-btn {
   width: 80px;
   height: 80px;
@@ -266,6 +264,10 @@ body {
   height: 387px;
   background-color: #a4cb66;
   border-radius: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .fruit-txt {
@@ -282,6 +284,51 @@ body {
 
 /* PART 4 ORGANIC PRODUCTS BASKET FRUITS */
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.blocks {
+  margin: 0 auto;
+}
+
+.blocks-list {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+
+ 
+  
+
+}
+
+.block-item {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 1000px;
+  padding: 12px 32px;
+  text-align: center;
+  margin: 8px;
+  width: calc((100% - 10px) / 3);
+  
+}
+
+
+
 /*PART 5 STRAWBERRY BASKET */
 .basketberry {
   padding: 48px;
@@ -290,6 +337,10 @@ body {
   height: 387px;
   background-color: #f5ce13;
   border-radius: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ---------- MOBILE ---------- */
@@ -315,7 +366,7 @@ body {
 
 /* ---------- TABLET *786px* ----------*/
 
-@media screen and (min-width: 787px) {
+@media screen and (min-width: 787px) and (max-width: 1279px) {
   .hamburger-btn {
     display: none;
   }
