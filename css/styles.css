@@ -7,6 +7,11 @@ body {
   min-width: 375px;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 /* -------------------> Header style SEBASTIAN STOBIECKI <------------------- */
 
 .title-header {
@@ -158,7 +163,6 @@ body {
 /* -------------------> Hero style <------------------- */
 /*Part1*/
 
-
 .shopnow-btn {
   width: 80px;
   height: 80px;
@@ -171,8 +175,6 @@ body {
   left: 116px;
 }
 
-
-
 .shopnow-text {
   font-family: "DM Sans";
   font-style: normal;
@@ -184,17 +186,16 @@ body {
   transform: rotate(-14deg);
 }
 
-.contacts-title {
-  text-transform: uppercase;
-  margin: auto;
-  max-width: 740px;
+.header-title {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
-  font-size: 64px;
-  line-height: 28px;
-  letter-spacing: -0.04em;
-  color: #fff;
+  display: flex;
+  align-items: center;
   text-align: center;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
 .container {
@@ -331,16 +332,14 @@ body {
 }
 
 .block-item {
-  color: #FFFFFF;
-  border: 1px solid #FFFFFF;
+  color: #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 1000px;
   padding: 12px 32px;
   text-align: center;
   margin: 8px;
   width: calc((100% - 10px) / 3);
 }
-
-
 
 /*PART 5 STRAWBERRY BASKET */
 .basketberry {
@@ -371,16 +370,14 @@ body {
     color: #ffffff;
   }
 
-  .contacts-title {
-    font-size: 28px;
+  .header-title {
     position: absolute;
     width: 335px;
     height: 118px;
-    left: calc(50% - 335px/2);
-    top: 66px;
-    text-align: center;
-
-
+    left: calc(50% - 335px / 2);
+    top: 106px;
+    font-size: 28px;
+    line-height: 28px;
   }
 }
 
@@ -395,16 +392,50 @@ body {
     display: none;
   }
 
-  .contacts-title {
+  .header-title {
+    position: absolute;
+    width: 704px;
+    height: 168px;
+    left: calc(50% - 704px / 2);
+    top: 114px;
     font-size: 50px;
+    line-height: 54px;
+  }
+  .strawberry-img {
+    width: 108px;
+    height: 108px;
+  }
 
+  .banana-img {
+    width: 132px;
+    height: 90px;
   }
 }
 
 /* --------- DESKTOP *1280px* ----------*/
 @media screen and (min-width: 1280px) {
-  .contacts-title {
+  .header-title {
+    position: absolute;
+    width: 898px;
+    height: 241px;
+    left: calc(50% - 898px / 2);
+    top: 93px;
     font-size: 64px;
+    line-height: 80px;
+  }
+
+  .red-head-img {
+    width: 600px;
+  }
+
+  .strawberry-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .banana-img {
+    width: 183.21px;
+    height: 124.61px;
   }
 }
 /* -------------------> koniec Header style SEBASTIAN STOBIECKI <------------------- */
@@ -494,8 +525,6 @@ body {
   margin: 0;
 }
 
-
-
 .fruits-li-div > .fruits-price {
   position: absolute;
   display: flex;
@@ -528,75 +557,65 @@ body {
   background-color: #f8766b;
 }
 .fruits-li:nth-child(2) > .fruits-li-div {
-  background-color: #EDD251;
+  background-color: #edd251;
 }
 .fruits-li:nth-child(3) > .fruits-li-div {
-  background-color: #9DC262;
+  background-color: #9dc262;
 }
 .fruits-li:nth-child(4) > .fruits-li-div {
-  background-color: #BFD663;
+  background-color: #bfd663;
 }
 .fruits-li:nth-child(5) > .fruits-li-div {
-  background-color: #E93F29;
+  background-color: #e93f29;
 }
 .fruits-li:nth-child(6) > .fruits-li-div {
-  background-color: #DB4F4B;
+  background-color: #db4f4b;
 }
 .fruits-li:nth-child(7) > .fruits-li-div {
-  background-color: #9B5366;
+  background-color: #9b5366;
 }
 .fruits-li:nth-child(8) > .fruits-li-div {
-  background-color: #F47F4C;
+  background-color: #f47f4c;
 }
 .fruits-li:nth-child(9) > .fruits-li-div {
-  background-color: #98B37E;
+  background-color: #98b37e;
 }
-
 
 /* TABLET */
-@media (min-width: 768px) and (max-width: 1279px)  {
-
+@media (min-width: 768px) and (max-width: 1279px) {
   .fruits-container {
-  max-width: 768px;
-}
+    max-width: 768px;
+  }
 
-.fruits-li-div {
-  height: 465px;
-  width: 344px;
-}
+  .fruits-li-div {
+    height: 465px;
+    width: 344px;
+  }
 
-.fruits-li-div > .fruits-img {
-  position: absolute;
-  top: 137px;
-  left: 25px;
-  margin: 0;
-}
-
-
-
+  .fruits-li-div > .fruits-img {
+    position: absolute;
+    top: 137px;
+    left: 25px;
+    margin: 0;
+  }
 }
 
 /* SMARTPHONE */
 @media (max-width: 767px) {
-
   .fruits-container {
-  max-width: 375px;
+    max-width: 375px;
+  }
+
+  .fruits-li-div {
+    height: 465px;
+    width: 335px;
+  }
+
+  .fruits-text {
+    width: 335px;
+    margin: 0 auto;
+  }
 }
-
-.fruits-li-div {
-  height: 465px;
-  width: 335px;
-}
-
-.fruits-text {
-  width: 335px;
-  margin: 0 auto;
-}
-
-}
-
-
-
 
 /*Sekcja 3 - PIOTR BŁOCH*/
 
@@ -874,9 +893,10 @@ footer {
   background-color: #ae13321a;
 }
 
-.footer-tel-and-location {
-}
+/* .footer-tel-and-location {
 
+}
+*/
 .footer-tel {
   display: block;
   margin-top: 40px;
