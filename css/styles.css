@@ -36,6 +36,7 @@
   flex-wrap: wrap;
   gap: 24px 24px;
   padding: 0;
+  justify-content: center;
 }
 .fruits-li-div {
   position: relative;
@@ -83,7 +84,13 @@
   margin: 0;
 }
 
-
+.fruits-img > .fruits-oval {
+  position: absolute;
+  top: 237px;
+  left: 43.5px;
+  margin: 0;
+  display: flex;
+}
 
 .fruits-li-div > .fruits-price {
   position: absolute;
@@ -117,75 +124,78 @@
   background-color: #f8766b;
 }
 .fruits-li:nth-child(2) > .fruits-li-div {
-  background-color: #EDD251;
+  background-color: #edd251;
 }
 .fruits-li:nth-child(3) > .fruits-li-div {
-  background-color: #9DC262;
+  background-color: #9dc262;
 }
 .fruits-li:nth-child(4) > .fruits-li-div {
-  background-color: #BFD663;
+  background-color: #bfd663;
 }
 .fruits-li:nth-child(5) > .fruits-li-div {
-  background-color: #E93F29;
+  background-color: #e93f29;
 }
 .fruits-li:nth-child(6) > .fruits-li-div {
-  background-color: #DB4F4B;
+  background-color: #db4f4b;
 }
 .fruits-li:nth-child(7) > .fruits-li-div {
-  background-color: #9B5366;
+  background-color: #9b5366;
 }
 .fruits-li:nth-child(8) > .fruits-li-div {
-  background-color: #F47F4C;
+  background-color: #f47f4c;
 }
 .fruits-li:nth-child(9) > .fruits-li-div {
-  background-color: #98B37E;
+  background-color: #98b37e;
 }
-
 
 /* TABLET */
-@media (min-width: 768px) and (max-width: 1279px)  {
-
+@media (min-width: 768px) and (max-width: 1279px) {
   .fruits-container {
-  max-width: 768px;
-}
+    max-width: 768px;
+  }
 
-.fruits-li-div {
-  height: 465px;
-  width: 344px;
-}
+  .fruits-li-div {
+    height: 465px;
+    width: 344px;
+  }
 
-.fruits-li-div > .fruits-img {
-  position: absolute;
-  top: 137px;
-  left: 25px;
-  margin: 0;
-}
-
-
-
+  .fruits-li-div > .fruits-img {
+    position: absolute;
+    top: 137px;
+    left: 25px;
+    margin: 0;
+  }
+  .fruits-li:nth-child(9) > .fruits-li-div {
+    display: none;
+  }
 }
 
 /* SMARTPHONE */
 @media (max-width: 767px) {
-
   .fruits-container {
-  max-width: 375px;
+    max-width: 375px;
+  }
+
+  .fruits-li-div {
+    height: 465px;
+    width: 335px;
+  }
+
+  .fruits-text {
+    width: 335px;
+    margin: 0 auto;
+  }
+
+  .fruits-li-div > .fruits-img {
+    position: absolute;
+    top: 122px;
+    left: 20px;
+    margin: 0;
+  }
+  .fruits-li:nth-child(n + 7) > .fruits-li-div {
+    display: none;
+  }
 }
-
-.fruits-li-div {
-  height: 465px;
-  width: 335px;
-}
-
-.fruits-text {
-  width: 335px;
-  margin: 0 auto;
-}
-
-}
-
-
-
 
 /*Sekcja 3 - PIOTR BŁOCH*/
 
