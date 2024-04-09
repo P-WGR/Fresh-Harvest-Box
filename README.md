@@ -2,10 +2,11 @@ Fresh-Harvest-Box
 Project - Group #7
 
 Osoby w grupie:
-• Mikołaj Drozd
-• Mikołaj Szambelan
-• Piotr Błoch
-• Piotr Wagner
-• Rafał Szymanek
-• Sebastian Stobiecki
-• Szymon Podbielski
+• Mikołaj Drozd - Sekcja #2
+• Mikołaj Szambelan - Scrum master
+• Piotr Błoch - Sekcja #3
+• Piotr Wagner - Team leader
+• Rafał Szymanek - Okno do zamawiania [POP-UP]
+• Sebastian Stobiecki - Header + Sekcja #1
+• Szymon Podbielski - Sekcja #4 + Stopka
+• Waldemar Ozimek - >>> JESZCZE NIE PRZYDZIELONY <<<
