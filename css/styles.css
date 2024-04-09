@@ -1,3 +1,414 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ae1332;
+  min-width: 375px;
+}
+
+/* -------------------> Header style SEBASTIAN STOBIECKI <------------------- */
+
+.title-header {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.header-style {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.logo-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #ae1332;
+}
+
+.main-logo {
+  height: 16px;
+  width: 16px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  background-color: #ffffff;
+}
+
+.name-header {
+  color: rgba(174, 19, 50, 1);
+  font-family: "DM Sans";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: 8px;
+}
+
+.header-menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 20px;
+  position: relative;
+}
+
+.menu-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  height: 50px;
+  width: 100%;
+  position: relative;
+}
+
+.menu-point {
+  color: #ae1332;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+.title-icon {
+  height: 1rem;
+}
+
+.busket-icon {
+  width: 28px;
+  height: 28px;
+}
+
+/* HAMBURGER */
+.header-menu-ham {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: 100vh;
+  padding-top: 120px;
+  margin: 0;
+}
+
+.hamburger-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-hamburger {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  background-color: #ae1332;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateX(100%);
+}
+
+/*.menu-hamburger.is-open-ham {
+  transform: translateX(0);
+} */
+
+.ham-list {
+  justify-content: space-between;
+}
+
+.menu-container-ham-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 0 20px;
+}
+
+.ham-close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* -------------------> Hero style <------------------- */
+/*Part1*/
+
+
+.shopnow-btn {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  left: 0px;
+  top: 560px;
+  left: 116px;
+}
+
+
+
+.shopnow-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ae1332;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  transform: rotate(-14deg);
+}
+
+.contacts-title {
+  text-transform: uppercase;
+  margin: auto;
+  max-width: 740px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 28px;
+  letter-spacing: -0.04em;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.blur-img {
+  filter: blur(2px);
+}
+
+.red-head-img {
+  border-radius: 500px;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 12px;
+  width: 311px;
+  height: 484px;
+  z-index: -1;
+  position: absolute;
+  top: 116px;
+  left: 0px;
+}
+
+.banana-img {
+  position: absolute;
+  width: 66px;
+  height: 44px;
+  left: 13px;
+  top: 116px;
+  transform: rotate(20deg);
+  z-index: -1;
+}
+
+.strawberry-img {
+  position: absolute;
+  left: 299px;
+  top: 66px;
+  z-index: -1;
+  width: 56px;
+  height: 56px;
+}
+
+.part-one {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.obraz {
+  height: 684px;
+  width: 311px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/*PART 2 TEXT*/
+
+.txt-style {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  width: 279px;
+  height: 90px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  padding: 0 48px;
+  margin: 0 auto;
+}
+
+/*PART 3 ARBUZ*/
+.watermelon {
+  padding: 48px;
+  margin: 0 auto;
+  width: 249px;
+  height: 387px;
+  background-color: #a4cb66;
+  border-radius: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fruit-txt {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* PART 4 ORGANIC PRODUCTS BASKET FRUITS */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.blocks {
+  margin: 0 auto;
+}
+
+.blocks-list {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.block-item {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 1000px;
+  padding: 12px 32px;
+  text-align: center;
+  margin: 8px;
+  width: calc((100% - 10px) / 3);
+}
+
+
+
+/*PART 5 STRAWBERRY BASKET */
+.basketberry {
+  padding: 48px;
+  margin: 0 auto;
+  width: 249px;
+  height: 387px;
+  background-color: #f5ce13;
+  border-radius: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------- MOBILE *375px* ---------- */
+
+@media screen and (max-width: 786px) {
+  .busket-icon {
+    display: none;
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+  .menu-point-ham {
+    color: #ffffff;
+  }
+
+  .contacts-title {
+    font-size: 28px;
+    position: absolute;
+    width: 335px;
+    height: 118px;
+    left: calc(50% - 335px/2);
+    top: 66px;
+    text-align: center;
+
+
+  }
+}
+
+/* ---------- TABLET *786px* ----------*/
+
+@media screen and (min-width: 787px) and (max-width: 1279px) {
+  .hamburger-btn {
+    display: none;
+  }
+
+  .menu-hamburger {
+    display: none;
+  }
+
+  .contacts-title {
+    font-size: 50px;
+
+  }
+}
+
+/* --------- DESKTOP *1280px* ----------*/
+@media screen and (min-width: 1280px) {
+  .contacts-title {
+    font-size: 64px;
+  }
+}
+/* -------------------> koniec Header style SEBASTIAN STOBIECKI <------------------- */
+
 /*Sekcja 3 - PIOTR BŁOCH */
 
 .fruits-container {
