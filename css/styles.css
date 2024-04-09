@@ -406,4 +406,10 @@ position: relative;
   .contacts-title {
     font-size: 64px;
   }
+  .hamburger-btn {
+    display: none;
+  }
+  .menu-hamburger {
+    display: none;
+  }
 }
