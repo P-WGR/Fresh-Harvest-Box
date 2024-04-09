@@ -111,74 +111,7 @@ body {
   color: #9dc162;
 }
 
-@media (min-width: 768px) and (max-width: 1279px) {
-  .contacts-title {
-    font-family: "DM Sans", sans-serif;
-    font-weight: 500;
-    font-size: 54px;
-    line-height: 1;
-    letter-spacing: -0.04em;
-    text-transform: uppercase;
-    text-align: center;
-    color: #fff;
-    width: 648px;
-    height: 108px;
-    margin-bottom: -29px;
-  }
-
-  .contacts-images {
-    height: 480px;
-    max-width: 704px;
-    margin: auto;
-  }
-
-  .kiwi-photo {
-    width: 344px;
-    height: 480px;
-  }
-
-  .blueberries-photo {
-    width: 344px;
-    height: 480px;
-  }
-}
-
-@media (min-width: 375px) and (max-width: 767px) {
-  .contacts-title {
-    font-family: "DM Sans", sans-serif;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 1;
-    letter-spacing: -0.04em;
-    text-transform: uppercase;
-    text-align: center;
-    color: #fff;
-    max-width: 335px;
-    max-height: 90px;
-  }
-  .contacts-images {
-    width: 335px;
-    height: 476px;
-    margin: auto;
-  }
-
-  .kiwi-photo {
-    width: 335px;
-    height: 476px;
-  }
-
-  .blueberries-photo {
-    display: none;
-  }
-
-  .contacts-paragraph {
-    display: none;
-  }
-
-  .contacts-form {
-    display: none;
-  }
-} /*Koniec sekcji 4 - SZYMON PODBIELSKI*/
+/*Koniec sekcji 4 - SZYMON PODBIELSKI*/
 
 /* Stopka - SZYMON PODBIELSKI */
 footer {
@@ -199,6 +132,11 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.footer-img-and-nav {
+  display: flex;
+  gap: 243px;
 }
 
 .woman-with-bananas {
@@ -234,6 +172,8 @@ footer {
   display: flex;
   gap: 20px;
   padding-top: 164px;
+  margin: 0;
+  padding-top: 164px;
 }
 
 .footer-nav-link {
@@ -249,6 +189,7 @@ footer {
 
 .footer-socials-and-address {
   padding-top: 80px;
+  padding-right: 32px;
 }
 
 .footer-social-media-list {
@@ -298,4 +239,157 @@ footer {
   text-decoration: none;
 }
 
+.footer-socials-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.instagram-circle {
+  position: relative;
+  right: 26px;
+  margin: 0;
+  padding: 0;
+  width: 8px;
+  height: 8px;
+}
+.youtube {
+  position: relative;
+  right: 8px;
+}
+
 /* koniec stopki - SZYMON PODBIELSKI */
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .contacts-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    width: 648px;
+    height: 108px;
+    margin-bottom: -29px;
+  }
+
+  .contacts-images {
+    height: 480px;
+    max-width: 704px;
+    margin: auto;
+  }
+
+  .kiwi-photo {
+    width: 344px;
+    height: 480px;
+  }
+
+  .blueberries-photo {
+    width: 344px;
+    height: 480px;
+  }
+
+  footer {
+    height: 475px;
+  }
+
+  .footer-img-and-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+  }
+
+  .footer-nav-list {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .contacts-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    max-width: 335px;
+    max-height: 90px;
+  }
+  .contacts-images {
+    width: 335px;
+    height: 476px;
+    margin: auto;
+  }
+
+  .kiwi-photo {
+    width: 335px;
+    height: 476px;
+  }
+
+  .blueberries-photo {
+    display: none;
+  }
+
+  .contacts-paragraph {
+    display: none;
+  }
+
+  .contacts-form {
+    display: none;
+  }
+
+  footer {
+    min-height: 626px;
+    margin-top: 80px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 626px;
+    justify-content: center;
+    width: 375px;
+    gap: 40px;
+  }
+
+  .footer-img-and-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-img-and-logo {
+    padding-left: 0;
+    padding-top: 80px;
+  }
+
+  .footer-nav-list {
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-socials-and-address {
+    padding: 0;
+    margin-bottom: 80px;
+  }
+
+  .footer-social-media-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .instagram-circle {
+    width: 8px;
+    height: 8px;
+    right: 24px;
+  }
+}
