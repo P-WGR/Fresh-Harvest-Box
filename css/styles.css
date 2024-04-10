@@ -102,6 +102,7 @@ img {
 .busket-icon {
   width: 28px;
   height: 28px;
+  padding: 0 32px;
 }
 
 /* HAMBURGER */
@@ -164,9 +165,12 @@ img {
 /*Part1*/
 
 .shopnow-btn {
+  font-family: 'DM Sans', inherit;
+  font-weight: 500;
   width: 80px;
   height: 80px;
   border-radius: 50%;
+  font-size: 20px;
   border: none;
   cursor: pointer;
   position: absolute;
@@ -313,7 +317,7 @@ img {
   border-radius: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -379,7 +383,7 @@ img {
   border-radius: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -424,6 +428,11 @@ img {
     display: none;
   }
 
+  .menu-container {
+    width: 787px;
+    margin: 0;
+  }
+
   .header-title {
     position: absolute;
     width: 704px;
@@ -433,6 +442,7 @@ img {
     font-size: 50px;
     line-height: 54px;
   }
+
   .strawberry-img {
     width: 108px;
     height: 108px;
@@ -446,6 +456,68 @@ img {
   .shopnow-btn {
     width: 114px;
     height: 114px;
+    font-size: 28px;
+  }
+
+  .hero{
+    position: relative;
+    width: 768px;
+    height: 1562px;
+  }
+  
+
+  .hero-photo {
+    width: 786px;
+    height: 1562px;
+  }
+
+  .header-title {
+    width: 704px;
+    height: 168px;
+    position: absolute;
+    top: 64px;
+    left: 32px; 
+  }
+
+  .shopnow-btn {
+    position: absolute;
+    top: 745px;
+    left: 327px;
+    font-size: 28px;
+  
+  }
+
+  .red-head-img {
+    position: absolute;
+    top: 122px;
+    left: 158px;
+    width: 452px;
+    height: 702px;
+  }
+
+  .banana-img {
+    position: absolute;
+    top: 169px;
+    left: 27.22px;
+  }
+
+  .strawberry-img {
+    position: absolute;
+    top: 55px;
+    left: 623px;
+  }
+
+  .left-hero {
+    position: absolute;
+    left: 32px;
+    top: 903px;
+  }
+
+  .right-hero {
+    position: absolute;
+    top: 903px;
+    left: 455px;
+    flex-direction: column-reverse;
   }
 }
 
@@ -513,6 +585,7 @@ img {
     left: 583px;
     width: 114px;
     height: 114px;
+    font-size: 28px;
   }
 
   .hero {
@@ -679,9 +752,11 @@ p {
   margin: 0 auto;
 }
 
-.fruits-text {
-  width: 624px;
+.fruit-text {
   margin: 0 auto;
+  text-align: center;
+  height: auto;
+  width: 70px;
 }
 .fruits-title {
   text-transform: uppercase;
