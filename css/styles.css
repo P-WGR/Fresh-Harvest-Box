@@ -765,18 +765,63 @@ p {
 
 /*Sekcja 3 - PIOTR BŁOCH */
 
+/* BUTTON */
+
+.fruits-button {
+  min-width: 114px;
+  height: 114px;
+  background-color: #9dc262;
+  border: none;
+  border-radius: 57px;
+  display: block;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  cursor: pointer;
+
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+.fruits-button:hover {
+  background-color: #ffffff;
+  color: #9dc262;
+}
+
+.fruits-button>div {
+  transform: rotate(-15deg);
+  transform-origin: 0 0;
+}
+
+.fruits-button-svg {
+  margin-left: 0px;
+  fill: #ffffff;
+}
+
+.fruits-button:hover>.fruits-button-svg {
+  fill: #9dc262;
+}
+
+/* BUTTON */
+
 .fruits-container {
   width: 1216px;
   gap: 44px;
   margin: 0 auto;
 }
 
-.fruit-text {
+.fruits-text {
+  width: 624px;
   margin: 0 auto;
-  text-align: center;
-  height: auto;
-  width: 70px;
 }
+
 .fruits-title {
   text-transform: uppercase;
   font-family: DM Sans;
@@ -787,6 +832,7 @@ p {
   text-align: center;
   color: #ffffff;
 }
+
 .fruits-paragraph {
   font-family: DM Sans;
   font-size: 14px;
@@ -803,7 +849,9 @@ p {
   flex-wrap: wrap;
   gap: 24px 24px;
   padding: 0;
+  justify-content: center;
 }
+
 .fruits-li-div {
   position: relative;
   align-items: center;
@@ -814,7 +862,7 @@ p {
   margin-bottom: 0px;
 }
 
-.fruits-li-div > .fruits-li-h3 {
+.fruits-li-div>.fruits-li-h3 {
   position: absolute;
   top: 64px;
   left: 24px;
@@ -828,7 +876,8 @@ p {
   text-align: left;
   color: #ffffff;
 }
-.fruits-li-div > .fruits-li-p {
+
+.fruits-li-div>.fruits-li-p {
   position: absolute;
   top: 109px;
   left: 24px;
@@ -843,14 +892,22 @@ p {
   color: #ffffff;
 }
 
-.fruits-li-div > .fruits-img {
+.fruits-li-div>.fruits-img {
   position: absolute;
   top: 137px;
   left: 47px;
   margin: 0;
 }
 
-.fruits-li-div > .fruits-price {
+.fruits-img>.fruits-oval {
+  position: absolute;
+  top: 237px;
+  left: 43.5px;
+  margin: 0;
+  display: flex;
+}
+
+.fruits-li-div>.fruits-price {
   position: absolute;
   display: flex;
   align-items: center;
@@ -878,31 +935,39 @@ p {
   padding: 0;
 }
 
-.fruits-li:nth-child(1) > .fruits-li-div {
+.fruits-li:nth-child(1)>.fruits-li-div {
   background-color: #f8766b;
 }
-.fruits-li:nth-child(2) > .fruits-li-div {
+
+.fruits-li:nth-child(2)>.fruits-li-div {
   background-color: #edd251;
 }
-.fruits-li:nth-child(3) > .fruits-li-div {
+
+.fruits-li:nth-child(3)>.fruits-li-div {
   background-color: #9dc262;
 }
-.fruits-li:nth-child(4) > .fruits-li-div {
+
+.fruits-li:nth-child(4)>.fruits-li-div {
   background-color: #bfd663;
 }
-.fruits-li:nth-child(5) > .fruits-li-div {
+
+.fruits-li:nth-child(5)>.fruits-li-div {
   background-color: #e93f29;
 }
-.fruits-li:nth-child(6) > .fruits-li-div {
+
+.fruits-li:nth-child(6)>.fruits-li-div {
   background-color: #db4f4b;
 }
-.fruits-li:nth-child(7) > .fruits-li-div {
+
+.fruits-li:nth-child(7)>.fruits-li-div {
   background-color: #9b5366;
 }
-.fruits-li:nth-child(8) > .fruits-li-div {
+
+.fruits-li:nth-child(8)>.fruits-li-div {
   background-color: #f47f4c;
 }
-.fruits-li:nth-child(9) > .fruits-li-div {
+
+.fruits-li:nth-child(9)>.fruits-li-div {
   background-color: #98b37e;
 }
 
@@ -917,11 +982,15 @@ p {
     width: 344px;
   }
 
-  .fruits-li-div > .fruits-img {
+  .fruits-li-div>.fruits-img {
     position: absolute;
     top: 137px;
     left: 25px;
     margin: 0;
+  }
+
+  .fruits-li:nth-child(9)>.fruits-li-div {
+    display: none;
   }
 }
 
@@ -940,9 +1009,19 @@ p {
     width: 335px;
     margin: 0 auto;
   }
-}
 
-/*Sekcja 3 - PIOTR BŁOCH*/
+  .fruits-li-div>.fruits-img {
+    position: absolute;
+    top: 122px;
+    left: 20px;
+    margin: 0;
+  }
+
+  .fruits-li:nth-child(n + 7)>.fruits-li-div {
+    display: none;
+  }
+}
+/*Koniec sekcji 3 - PIOTR BŁOCH*/
 
 /*Sekcja 4 - SZYMON PODBIELSKI*/
 body {
