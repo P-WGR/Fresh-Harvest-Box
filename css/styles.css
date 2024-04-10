@@ -179,15 +179,23 @@ body {
 .modal {
   background-color: #ffffff;
   border-radius: 20px;
+  width: 703px;
+  height: 853px;
 }
 .card-order-1 {
   background-color: #f8766b;
+  border-radius: 20px;
+   
 }
 .card-order-2 {
   background-color: #edd251;
+  border-radius: 20px;
+   
 }
 .card-order-3 {
   background-color: #9dc262;
+  border-radius: 20px;
+   
 }
 .pop-up-thank-you {
   background-color: #e03f5e;
@@ -203,6 +211,8 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: block;
+  margin: 0 20px;
 }
 
 .thank-you {
@@ -226,7 +236,7 @@ text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
   text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
 }
 .form-order {
-  display: block;
+  display: flexbox;
 }
 .submit-button {
   font-family: "DM Sans", sans-serif;
@@ -253,6 +263,25 @@ color: #fff;
     text-transform: uppercase;
     color: #ae1332;
     text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+.head-order {
+  font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: -0.04em;
+    color: #fff;
+  margin-left: 20px;
+}
+.p-order {
+  font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-left: 20px;
 }
 @media (min-width: 375px) and (max-width: 767px) {
   .modal {
