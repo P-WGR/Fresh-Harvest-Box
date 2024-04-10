@@ -1,5 +1,42 @@
 /*Sekcja 3 - PIOTR BŁOCH */
 
+/* BUTTON */
+
+.fruits-button {
+  min-width: 114px;
+  height: 114px;
+  background-color: #9dc262;
+  border: none;
+  border-radius: 57px;
+  display: block;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  cursor: pointer;
+
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  text-align: center;
+
+
+}
+.fruits-button > div {
+  transform: rotate(-15deg);
+transform-origin: 0 0;
+}
+.fruits-button-svg {
+  margin-left: 0px;
+  fill: #ffffff;
+}
+
+/* BUTTON */
+
 .fruits-container {
   width: 1216px;
   gap: 44px;
