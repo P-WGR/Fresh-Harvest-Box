@@ -23,16 +23,21 @@
   line-height: 24px;
   letter-spacing: -0.04em;
   text-align: center;
-
-
+}
+.fruits-button:hover {
+  background-color: #ffffff;
+  color: #9dc262;
 }
 .fruits-button > div {
   transform: rotate(-15deg);
-transform-origin: 0 0;
+  transform-origin: 0 0;
 }
 .fruits-button-svg {
   margin-left: 0px;
   fill: #ffffff;
+}
+.fruits-button:hover > .fruits-button-svg {
+  fill: #9dc262;
 }
 
 /* BUTTON */
