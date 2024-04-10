@@ -1204,6 +1204,121 @@ body {
   }
 }
 /*Koniec sekcji 4 - SZYMON PODBIELSKI*/
+/*Sekcja 4 - SZYMON PODBIELSKI*/
+body {
+  background-color: #ae1332;
+}
+
+.contacts {
+  background-color: #ae1332;
+  margin-top: 150px;
+}
+
+.contacts-title {
+  text-transform: uppercase;
+  margin: auto;
+  max-width: 740px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  margin-bottom: -39px;
+}
+
+.contacts-images {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  height: 502px;
+  padding-bottom: 80px;
+}
+
+.kiwi-photo {
+  border-radius: 20px;
+  width: 792px;
+  height: 502px;
+  object-fit: cover;
+}
+
+.blueberries-photo {
+  border-radius: 20px;
+  object-fit: cover;
+  height: 502px;
+}
+
+.contacts-paragraph {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #fff;
+  max-width: 492px;
+  margin: auto;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.contacts-label {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 150px;
+}
+
+.contacts-email {
+  background-color: inherit;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.04em;
+  color: #fff;
+  border-left: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
+  border-right: none;
+  border-radius: 30px 0 0 30px;
+  height: 48px;
+  width: 220px;
+  padding-left: 24px;
+}
+
+.contacts-email::placeholder {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+
+.contacts-email:invalid {
+  border-color: red;
+}
+
+.contacts-button {
+  background-color: #9dc162;
+  border: none;
+  border-radius: 30px;
+  width: 102px;
+  color: #ffffff;
+  margin-left: -30px;
+  cursor: pointer;
+}
+
+.contacts-button:hover {
+  background-color: #ffffff;
+  color: #9dc162;
+}
+
+/*Koniec sekcji 4 - SZYMON PODBIELSKI*/
+
 /* Stopka - SZYMON PODBIELSKI */
 footer {
   background-color: #ffffff;
@@ -1223,6 +1338,11 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.footer-img-and-nav {
+  display: flex;
+  gap: 243px;
 }
 
 .woman-with-bananas {
@@ -1258,6 +1378,8 @@ footer {
   display: flex;
   gap: 20px;
   padding-top: 164px;
+  margin: 0;
+  padding-top: 164px;
 }
 
 .footer-nav-link {
@@ -1273,6 +1395,7 @@ footer {
 
 .footer-socials-and-address {
   padding-top: 80px;
+  padding-right: 32px;
 }
 
 .footer-social-media-list {
@@ -1296,10 +1419,8 @@ footer {
   background-color: #ae13321a;
 }
 
-/* .footer-tel-and-location {
+.footer-tel-and-location {}
 
-}
-*/
 .footer-tel {
   display: block;
   margin-top: 40px;
@@ -1321,6 +1442,162 @@ footer {
   letter-spacing: -0.02em;
   color: #ae1332;
   text-decoration: none;
+}
+
+.footer-socials-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.instagram-circle {
+  position: relative;
+  right: 26px;
+  margin: 0;
+  padding: 0;
+  width: 8px;
+  height: 8px;
+}
+
+.youtube {
+  position: relative;
+  right: 8px;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .contacts-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    width: 648px;
+    height: 108px;
+    margin-bottom: -29px;
+  }
+
+  .contacts-images {
+    height: 480px;
+    max-width: 704px;
+    margin: auto;
+  }
+
+  .kiwi-photo {
+    width: 344px;
+    height: 480px;
+  }
+
+  .blueberries-photo {
+    width: 344px;
+    height: 480px;
+  }
+
+  footer {
+    height: 475px;
+  }
+
+  .footer-img-and-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+  }
+
+  .footer-nav-list {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .contacts-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    max-width: 335px;
+    max-height: 90px;
+  }
+
+  .contacts-images {
+    width: 335px;
+    height: 476px;
+    margin: auto;
+  }
+
+  .kiwi-photo {
+    width: 335px;
+    height: 476px;
+  }
+
+  .blueberries-photo {
+    display: none;
+  }
+
+  .contacts-paragraph {
+    display: none;
+  }
+
+  .contacts-form {
+    display: none;
+  }
+
+  footer {
+    min-height: 626px;
+    margin-top: 80px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 626px;
+    justify-content: center;
+    width: 375px;
+    gap: 40px;
+  }
+
+  .footer-img-and-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-img-and-logo {
+    padding-left: 0;
+    padding-top: 80px;
+  }
+
+  .footer-nav-list {
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-socials-and-address {
+    padding: 0;
+    margin-bottom: 80px;
+  }
+
+  .footer-social-media-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .instagram-circle {
+    width: 8px;
+    height: 8px;
+    right: 24px;
+  }
 }
 /* koniec stopki - SZYMON PODBIELSKI */
 /* <!-- Sekcja-do-zamawiania-i-pop-up Rafał Szymanek --> */
