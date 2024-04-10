@@ -14,7 +14,7 @@ img {
 
 /* -------------------> Header style SEBASTIAN STOBIECKI <------------------- */
 
-.title-header {
+.header-title {
   display: flex;
   justify-content: baseline;
   align-items: center;
@@ -170,9 +170,8 @@ img {
   border: none;
   cursor: pointer;
   position: absolute;
-  left: 0px;
   top: 560px;
-  left: 116px;
+  left: 148px;
 }
 
 .shopnow-text {
@@ -204,20 +203,24 @@ img {
   padding: 0 16px;
 }
 
-.blur-img {
-  filter: blur(2px);
-}
-
 .red-head-img {
   border-radius: 500px;
   border: 1px solid rgb(255, 255, 255);
+
   padding: 12px;
   width: 311px;
   height: 484px;
   z-index: -1;
   position: absolute;
+  left: 32px;
   top: 116px;
-  left: 0px;
+}
+
+.red-head-container {
+  position: absolute;
+  top: 66px;
+  left: 32px;
+  z-index: -1;
 }
 
 .banana-img {
@@ -228,6 +231,7 @@ img {
   top: 116px;
   transform: rotate(20deg);
   z-index: -1;
+  filter: blur(2px);
 }
 
 .strawberry-img {
@@ -237,22 +241,45 @@ img {
   z-index: -1;
   width: 56px;
   height: 56px;
+  filter: blur(2px);
 }
 
 .part-one {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-}
-
-.obraz {
-  height: 684px;
-  width: 311px;
+  width: 100%;
   margin: 0 auto;
   position: relative;
 }
 
+.hero {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+}
+
+.hero-photo {
+  height: 640px;
+  width: 375px;
+  position: relative;
+}
+
+.right-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 44px;
+}
+
+.left-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 44px;
+}
 /*PART 2 TEXT*/
 
 .txt-style {
@@ -263,6 +290,7 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
+  text-align: start;
   display: flex;
   align-items: center;
   letter-spacing: -0.04em;
@@ -270,7 +298,7 @@ img {
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
-.text {
+.txt-header {
   padding: 0 48px;
   margin: 0 auto;
 }
@@ -297,6 +325,7 @@ img {
   line-height: 14px;
   letter-spacing: -0.04em;
   text-transform: uppercase;
+  text-align: center;
 
   color: #ffffff;
 }
@@ -338,7 +367,6 @@ img {
   padding: 12px 32px;
   text-align: center;
   margin: 8px;
-  width: calc((100% - 10px) / 3);
 }
 
 /*PART 5 STRAWBERRY BASKET */
@@ -374,10 +402,14 @@ img {
     position: absolute;
     width: 335px;
     height: 118px;
-    left: calc(50% - 335px / 2);
-    top: 106px;
+    left: calc(40% - 335px / 3);
+    top: 50px;
     font-size: 28px;
     line-height: 28px;
+  }
+
+  .menu-container {
+    width: 375px;
   }
 }
 
@@ -410,32 +442,107 @@ img {
     width: 132px;
     height: 90px;
   }
+
+  .shopnow-btn {
+    width: 114px;
+    height: 114px;
+  }
 }
 
 /* --------- DESKTOP *1280px* ----------*/
 @media screen and (min-width: 1280px) {
+  .hamburger-btn {
+    display: none;
+  }
+
+  .menu-hamburger {
+    display: none;
+  }
+
+  .header-style {
+    margin: 0 auto;
+  }
+
+  .menu-container {
+    width: 1280px;
+  }
+
   .header-title {
     position: absolute;
     width: 898px;
-    height: 241px;
+    height: 198px;
     left: calc(50% - 898px / 2);
-    top: 93px;
+    top: 64px;
     font-size: 64px;
     line-height: 80px;
+    margin: 0;
+    text-align: center;
   }
 
+  .hero-photo {
+    height: 1097px;
+    width: 1275px;
+  }
   .red-head-img {
-    width: 600px;
+    width: 452px;
+    height: 702px;
+    position: absolute;
+    left: 414px;
+    top: 122px;
   }
 
   .strawberry-img {
     width: 120px;
     height: 120px;
+    position: absolute;
+    top: 39px;
+    left: 937px;
   }
 
   .banana-img {
     width: 183.21px;
     height: 124.61px;
+    position: absolute;
+    top: 191px;
+    left: 213px;
+  }
+
+  .shopnow-btn {
+    position: absolute;
+    top: 745px;
+    left: 583px;
+    width: 114px;
+    height: 114px;
+  }
+
+  .hero {
+    position: relative;
+    width: 1275px;
+    height: 1097px;
+  }
+
+  .left-hero {
+    position: absolute;
+    top: 408px;
+    left: 62px;
+  }
+
+  .right-hero {
+    position: absolute;
+    top: 336px;
+    left: 895px;
+    flex-direction: column-reverse;
+    width: 375px;
+  }
+
+  .txt-style {
+    width: 222px;
+    height: 108px;
+  }
+
+  .blocks-list {
+    justify-content: flex-end;
+    column-gap: 0;
   }
 }
 /* -------------------> koniec Header style SEBASTIAN STOBIECKI <------------------- */
