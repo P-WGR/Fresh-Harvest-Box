@@ -1399,23 +1399,31 @@ footer {
   .modal {
     width: 335px;
     height: 902px;
+    margin: 0 auto;
   }
 
   .pop-up-thank-you {
     width: 335px;
     height: 426px;
+    margin: 0 auto;
+  }
+
+  .women-banana {
+    display: none;
   }
 }
 
-@media (min-width: 768px) and (max-width:1279) {
+@media (min-width: 768px) and (max-width: 1279px) {
   .modal {
     width: 703px;
     height: 853px;
+    margin: 0 auto;
   }
 
   .pop-up-thank-you {
     width: 600px;
     height: 545px;
+    margin: 0 auto;
   }
 
   .thank-you {
@@ -1427,17 +1435,40 @@ footer {
     font-size: 40px;
     line-height: 110%;
   }
+
+  .form-and-img {
+    display: flex;
+  }
+
+  .form-order {
+    display: grid;
+  }
+
+  .list-order {
+    display: flex;
+    gap: 12px;
+  }
+
+  .text-thankyou {
+    width: 391px;
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
-@media screen (min-width: 1280px) {
+@media (min-width: 1280px) {
   .modal {
     width: 891px;
     height: 911px;
+    margin: 0 auto;
   }
 
   .pop-up-thank-you {
     width: 600px;
     height: 545px;
+    margin: 0 auto;
   }
 
   .thank-you {
@@ -1449,5 +1480,27 @@ footer {
     font-size: 40px;
     line-height: 110%;
   }
+
+  .form-and-img {
+    display: flex;
+  }
+
+  .form-order {
+    display: grid;
+  }
+
+  .list-order {
+    display: flex;
+    gap: 12px;
+  }
+
+  .text-thankyou {
+    width: 391px;
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
+
 /* <!-- Koniec sekcji-do-zamawiania-i-pop-up Rafał Szymanek --> */
