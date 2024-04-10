@@ -165,8 +165,6 @@ img {
 /*Part1*/
 
 .shopnow-btn {
-  font-family: 'DM Sans', inherit;
-  font-weight: 500;
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -184,6 +182,8 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
   color: #ae1332;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   transform: rotate(-14deg);
@@ -456,13 +456,17 @@ img {
   .shopnow-btn {
     width: 114px;
     height: 114px;
+  }
+
+  .shopnow-text {
     font-size: 28px;
+    line-height: 28px;
   }
 
   .hero{
     position: relative;
     width: 768px;
-    height: 1562px;
+    height: 1612px;
   }
   
 
@@ -476,15 +480,15 @@ img {
     height: 168px;
     position: absolute;
     top: 64px;
-    left: 32px; 
+    left: calc(50% - 704px / 2);
   }
 
   .shopnow-btn {
     position: absolute;
     top: 745px;
     left: 327px;
-    font-size: 28px;
-  
+    width: 114px;
+    height: 114px;  
   }
 
   .red-head-img {
@@ -513,13 +517,23 @@ img {
     top: 903px;
   }
 
+  .txt-header {
+    padding: 0px;
+  }
+
   .right-hero {
     position: absolute;
     top: 903px;
     left: 455px;
     flex-direction: column-reverse;
   }
+
+  .blocks-list {
+    justify-content: flex-end;
+    column-gap: 0;
+  }
 }
+  
 
 /* --------- DESKTOP *1280px* ----------*/
 @media screen and (min-width: 1280px) {
@@ -586,6 +600,11 @@ img {
     width: 114px;
     height: 114px;
     font-size: 28px;
+  }
+
+  .shopnow-text {
+    font-size: 28px;
+    line-height: 28px;
   }
 
   .hero {
