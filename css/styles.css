@@ -1246,3 +1246,208 @@ footer {
 }
 
 /* koniec stopki - SZYMON PODBIELSKI */
+/* <!-- Sekcja-do-zamawiania-i-pop-up Rafał Szymanek --> */
+.modal {
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 703px;
+  height: 853px;
+}
+
+.card-order-1 {
+  background-color: #f8766b;
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 12px;
+
+}
+
+.card-order-2 {
+  background-color: #edd251;
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 12px;
+
+}
+
+.card-order-3 {
+  background-color: #9dc262;
+  border-radius: 20px;
+  display: flex;
+
+}
+
+.pop-up-thank-you {
+  background-color: #e03f5e;
+  border-radius: 20px;
+}
+
+.pop-up-thank-you {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.list-order {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin: 12px 20px;
+}
+
+.thank-you {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+}
+
+.p-thanks {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form-order {
+  display: block;
+  margin-left: 20px;
+
+}
+
+.form-order-input {
+  border: 1px solid #000;
+  border-radius: 100px;
+  width: 295px;
+  height: 46px;
+  margin-bottom: 14px;
+  opacity: 0.3;
+}
+
+.text-area {
+  border-radius: 20px;
+  width: 295px;
+  height: 132px;
+}
+
+.submit-button {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.04em;
+  text-transform: capitalize;
+  color: #fff;
+  border-radius: 100px;
+  padding: 12px 24px;
+  width: 92px;
+  height: 42px;
+  background: #9dc162;
+  border: none;
+}
+
+.head-modal {
+  font-family: "DM Sans",
+    sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #ae1332;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+}
+
+.head-order {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 133%;
+  letter-spacing: -0.04em;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.p-order {
+  font-family: "DM Sans",
+    sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.x-button {
+  border: none;
+  background-color: transparent;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .modal {
+    width: 335px;
+    height: 902px;
+  }
+
+  .pop-up-thank-you {
+    width: 335px;
+    height: 426px;
+  }
+}
+
+@media (min-width: 768px) and (max-width:1279) {
+  .modal {
+    width: 703px;
+    height: 853px;
+  }
+
+  .pop-up-thank-you {
+    width: 600px;
+    height: 545px;
+  }
+
+  .thank-you {
+    font-size: 40px;
+    line-height: 110%;
+  }
+
+  .head-modal {
+    font-size: 40px;
+    line-height: 110%;
+  }
+}
+
+@media screen (min-width: 1280px) {
+  .modal {
+    width: 891px;
+    height: 911px;
+  }
+
+  .pop-up-thank-you {
+    width: 600px;
+    height: 545px;
+  }
+
+  .thank-you {
+    font-size: 40px;
+    line-height: 110%;
+  }
+
+  .head-modal {
+    font-size: 40px;
+    line-height: 110%;
+  }
+}
+/* <!-- Koniec sekcji-do-zamawiania-i-pop-up Rafał Szymanek --> */

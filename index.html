@@ -582,5 +582,74 @@
       </div>
     </footer>
     <!--koniec stopki - SZYMON PODBIELSKI-->
+    <!-- Sekcja-do-zamawiania-i-pop-up Rafał Szymanek -->
+    <div class="modal">
+      <button class="x-button" type="button">
+        <svg class="x-button-svg" width="24" height="24">
+          <use href="./images/icon-modal.svg#icon-x" />
+        </svg>
+      </button>
+      <h2 class="head-modal">Your Order</h2>
+      <ul class="list-order">
+        <li class="card-order-1">
+          <div>
+            <h3 class="head-order">Strawberry Basket</h3>
+            <p class="p-order">Plant</p>
+          </div>
+          <label><input type="checkbox" src="./images/icon-modal.svg#icon-check">
+            <img width="107px" height="95px" src="./images/window-order/desktop/strawberry.png"
+              alt="Strawberry in a basket">
+          </label>
+        </li>
+        <li class="card-order-2">
+          <div>
+            <h3 class="head-order">Apple Basket</h3>
+            <p class="p-order">Plant</p>
+          </div>
+          <label><input type="checkbox">
+            <img width="107px" height="95px" src="./images/window-order/desktop/apple-box.png" alt="Apple in a box">
+          </label>
+        </li>
+        <li class="card-order-3">
+          <div>
+            <h3 class="head-order">Fruits Basket</h3>
+            <p class="p-order">Plant</p>
+          </div>
+          <label><input type="checkbox">
+            <img width="107px" height="95px" src="./images/window-order/desktop/fruts-basket.png" alt="fruit in a basket">
+          </label>
+        </li>
+      </ul>
+      <form autocomplete="on" class="form-order">
+        <label for="fname"></label>
+        <input class="form-order-input" type="text" id="fname" name="fname" value="Enter full name..." />
+        <label for="email"></label>
+        <input class="form-order-input" type="email" id="email" name="email" value="Enter email..." />
+        <label for="card"></label>
+        <input class="form-order-input" type="text" id="card" name="card" min="16" max="16" value="Enter card.." />
+        <label for="comments"></label>
+        <textarea class="form-order-input text-area" id="comments" name="comments" rows="4" cols="50">
+    Enter comments...</textarea>
+      </form>
+      <button class="submit-button" type="submit">Submit</button>
+    </div>
+    <div class="pop-up-thank-you">
+      <button class="x-button" type="button">
+        <svg class="x-button-svg" width="24" height="24">
+          <use href="./images/icon-modal.svg#icon-x" />
+        </svg>
+      </button>
+      <img src="./images/window-order/desktop/raspberry.png" />
+      <div class="text-thankyou">
+        <h2 class="thank-you">THANK YOU</h2>
+        <p class="p-thanks">
+          Thank you for your order! Our team is preparing your box with fresh,
+          delicious fruits and vegetables, and we'll deliver it straight to your
+          doorstep. We appreciate your business and look forward to providing you
+          with the best possible experience!
+        </p>
+      </div>
+    </div>
+    <!-- Koniec sekcji-do-zamawiania-i-pop-up Rafał Szymanek -->
   </body>
 </html>
