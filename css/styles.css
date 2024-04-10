@@ -178,6 +178,7 @@ body {
 /* <!-- Sekcja-do-zamawiania-i-pop-up Rafał Szymanek --> */
 .modal {
   background-color: #ffffff;
+<<<<<<< Updated upstream
   border-radius: 20px;
   width: 703px;
   height: 853px;
@@ -196,10 +197,41 @@ body {
   background-color: #9dc262;
   border-radius: 20px;
    
+=======
+ 
+}
+
+.list-order {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.card-order-1 {
+  background-color: #f8766b;
+  width: 295px;
+  height: 119px;
+  border-radius: 20px;
+}
+.card-order-2 {
+  background-color: #edd251;
+  width: 295px;
+  height: 119px;
+  border-radius: 20px;
+}
+.card-order-3 {
+  background-color: #9dc262;
+  width: 295px;
+  height: 119px;
+  border-radius: 20px;
+>>>>>>> Stashed changes
 }
 .pop-up-thank-you {
   background-color: #e03f5e;
 }
+<<<<<<< Updated upstream
 
 .pop-up-thank-you {
   display: flex;
@@ -236,7 +268,7 @@ text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
   text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
 }
 .form-order {
-  display: flexbox;
+  display: ;
 }
 .submit-button {
   font-family: "DM Sans", sans-serif;
@@ -284,6 +316,19 @@ color: #fff;
     margin-left: 20px;
 }
 @media (min-width: 375px) and (max-width: 767px) {
+=======
+.head-modal {
+  font-family: var(--font-family);
+  font-weight: 500;
+  
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #ae1332;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+>>>>>>> Stashed changes
   .modal {
     width: 335px;
     height: 902px;
@@ -292,8 +337,18 @@ color: #fff;
     width: 335px;
     height: 426px;
   }
+<<<<<<< Updated upstream
 }
 @media  (min-width: 768px) and (max-width:1279) {
+=======
+  .head-modal {
+    font-size: 28px;
+    line-height: 100%;
+  }
+ 
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+>>>>>>> Stashed changes
   .modal {
     width: 703px;
     height: 853px;
@@ -302,6 +357,7 @@ color: #fff;
     width: 600px;
     height: 545px;
   }
+<<<<<<< Updated upstream
   .thank-you {
     font-size: 40px;
     line-height: 110%;
@@ -310,6 +366,12 @@ color: #fff;
       font-size: 40px;
       line-height: 110%;
   }
+=======
+  .head-modal {
+    font-size: 40px;
+    line-height: 110%;
+  }
+>>>>>>> Stashed changes
 }
 @media screen (min-width: 1280px) {
   .modal {
@@ -320,6 +382,7 @@ color: #fff;
     width: 600px;
     height: 545px;
   }
+<<<<<<< Updated upstream
   .thank-you {
     font-size: 40px;
     line-height: 110%;
@@ -328,5 +391,11 @@ color: #fff;
        font-size: 40px;
        line-height: 110%;
      }
+=======
+  .head-modal {
+    font-size: 40px;
+    line-height: 110%;
+  }
+>>>>>>> Stashed changes
 }
 /* <!-- Koniec sekcji-do-zamawiania-i-pop-up Rafał Szymanek --> */
