@@ -12,8 +12,7 @@ img {
   max-width: 100%;
 }
 
-/* -------------------> Header style SEBASTIAN STOBIECKI <------------------- */
-
+/* ---------> Header style SEBASTIAN STOBIECKI <--------- */
 .header-style {
   width: 100%;
   background-color: #ffffff;
@@ -133,6 +132,7 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateX(100%);
 }
+
 /*
 .menu-hamburger.is-open-ham {
   transform: translateX(0);
@@ -155,7 +155,7 @@ img {
   cursor: pointer;
 }
 
-/* -------------------> Hero style <------------------- */
+/* -------------------> Hero style Sebastian Stobiecki <------------------- */
 /*Part1*/
 
 .shopnow-btn {
@@ -276,6 +276,7 @@ img {
   justify-content: center;
   gap: 44px;
 }
+
 /*PART 2 TEXT*/
 
 .txt-style {
@@ -591,6 +592,7 @@ img {
     height: 1097px;
     width: 1280px;
   }
+
   .red-head-img {
     width: 452px;
     height: 702px;
@@ -659,17 +661,13 @@ img {
     column-gap: 0;
   }
 }
-/* -------------------> koniec Header style SEBASTIAN STOBIECKI <------------------- */
-
+/* ---------> koniec Header style SEBASTIAN STOBIECKI <--------- */
 /* SEKCJA2 MIKOLAJ DROZD */
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
+body {
+  background-color: #ae1332;
 }
 
-/* Sekcja 2 MIKOŁAJ DROZD */
 ul {
   padding: 0;
   list-style: none;
@@ -682,7 +680,7 @@ h3,
 h4,
 h5,
 p {
-  margin: 0;
+  margin: 0
 }
 
 .second-section {
@@ -706,7 +704,7 @@ p {
   letter-spacing: -0.04em;
   text-transform: uppercase;
   color: #ffffff;
-  text-shadow: 0px 4px #0000001a;
+  text-shadow: 0px 4px #0000001A;
 }
 
 .smaller-txt {
@@ -716,8 +714,8 @@ p {
   line-height: 18px;
   letter-spacing: -0.04em;
   color: #ffffff;
-  text-shadow: 0px 4px #0000001a;
-  margin-bottom: 44px;
+  text-shadow: 0px 4px #0000001A;
+  margin-bottom: 44px
 }
 
 .div-ul {
@@ -750,7 +748,7 @@ p {
   max-height: 48px;
   border-radius: 200px;
   padding: 15px 42px 15px 42px;
-  background-color: #ae1332;
+  background-color: #AE1332;
   font-family: "DM Sans", sans-serif;
   font-size: 18px;
   color: #ffffff;
@@ -762,11 +760,11 @@ p {
 }
 
 .step-div_2 {
-  background-color: #a1c864;
+  background-color: #A1C864;
 }
 
 .step-div_3 {
-  background-color: #f5ce13;
+  background-color: #F5CE13;
 }
 
 .p-step {
@@ -776,8 +774,7 @@ p {
   color: black;
   line-height: 18px;
   font-weight: 400;
-  text-shadow: 0px 4px #0000001a;
-  text-shadow: 0px 4px #0000001a;
+  text-shadow: 0px 4px #0000001A;
   max-width: 145px;
 }
 
@@ -790,7 +787,97 @@ p {
   object-fit: cover;
 }
 
-/* KONIEC sekcji 2 MIKOŁAJ DROZD */
+@media (min-width: 375px) and (max-width: 767px) {
+  .p-step1 {
+    text-wrap: balance;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+
+  /* .second-section {
+  } */
+
+  .txt-div {
+    width: 624px;
+  }
+
+  .big-txt {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .smaller-txt {
+    padding: 0px 57.5px;
+  }
+
+  .steps-ul {
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 80px;
+    width: 624px;
+  }
+
+  .steps-list {
+    width: 389px;
+    height: 128px;
+  }
+
+  .p-step {
+    text-wrap: pretty;
+    max-width: 199px;
+  }
+
+  .s2-gif {
+    width: 704px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+
+  .second-section {
+    padding: 0 32px;
+  }
+
+  .txt-div {
+    width: 624px;
+  }
+
+  .big-txt {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .smaller-txt {
+    padding: 0 57.5px;
+  }
+
+  .steps-ul {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 80.5px;
+    width: 1215px;
+  }
+
+  .steps-list {
+    width: 389px;
+    height: 128px;
+  }
+
+  .p-step {
+    max-width: 166px;
+  }
+
+  .p-step3 {
+    max-width: 199px;
+  }
+
+  .s2-gif {
+    width: 860px;
+  }
+}
+
+/* KONIEC SEKCJI2 MIKOLAJ DROZD */
 
 /*Sekcja 3 - PIOTR BŁOCH */
 
@@ -824,7 +911,7 @@ p {
   color: #9dc262;
 }
 
-.fruits-button > div {
+.fruits-button>div {
   transform: rotate(-15deg);
   transform-origin: 0 0;
 }
@@ -834,7 +921,7 @@ p {
   fill: #ffffff;
 }
 
-.fruits-button:hover > .fruits-button-svg {
+.fruits-button:hover>.fruits-button-svg {
   fill: #9dc262;
 }
 
@@ -860,6 +947,7 @@ p {
   letter-spacing: -0.04em;
   text-align: center;
   color: #ffffff;
+
 }
 
 .fruits-paragraph {
@@ -892,7 +980,7 @@ p {
   margin-bottom: 0px;
 }
 
-.fruits-li-div > .fruits-li-h3 {
+.fruits-li-div>.fruits-li-h3 {
   position: absolute;
   top: 64px;
   left: 24px;
@@ -907,7 +995,7 @@ p {
   color: #ffffff;
 }
 
-.fruits-li-div > .fruits-li-p {
+.fruits-li-div>.fruits-li-p {
   position: absolute;
   top: 109px;
   left: 24px;
@@ -922,14 +1010,14 @@ p {
   color: #ffffff;
 }
 
-.fruits-li-div > .fruits-img {
+.fruits-li-div>.fruits-img {
   position: absolute;
   top: 137px;
   left: 47px;
   margin: 0;
 }
 
-.fruits-img > .fruits-oval {
+.fruits-img>.fruits-oval {
   position: absolute;
   top: 237px;
   left: 43.5px;
@@ -937,7 +1025,7 @@ p {
   display: flex;
 }
 
-.fruits-li-div > .fruits-price {
+.fruits-li-div>.fruits-price {
   position: absolute;
   display: flex;
   align-items: center;
@@ -965,39 +1053,39 @@ p {
   padding: 0;
 }
 
-.fruits-li:nth-child(1) > .fruits-li-div {
+.fruits-li:nth-child(1)>.fruits-li-div {
   background-color: #f8766b;
 }
 
-.fruits-li:nth-child(2) > .fruits-li-div {
+.fruits-li:nth-child(2)>.fruits-li-div {
   background-color: #edd251;
 }
 
-.fruits-li:nth-child(3) > .fruits-li-div {
+.fruits-li:nth-child(3)>.fruits-li-div {
   background-color: #9dc262;
 }
 
-.fruits-li:nth-child(4) > .fruits-li-div {
+.fruits-li:nth-child(4)>.fruits-li-div {
   background-color: #bfd663;
 }
 
-.fruits-li:nth-child(5) > .fruits-li-div {
+.fruits-li:nth-child(5)>.fruits-li-div {
   background-color: #e93f29;
 }
 
-.fruits-li:nth-child(6) > .fruits-li-div {
+.fruits-li:nth-child(6)>.fruits-li-div {
   background-color: #db4f4b;
 }
 
-.fruits-li:nth-child(7) > .fruits-li-div {
+.fruits-li:nth-child(7)>.fruits-li-div {
   background-color: #9b5366;
 }
 
-.fruits-li:nth-child(8) > .fruits-li-div {
+.fruits-li:nth-child(8)>.fruits-li-div {
   background-color: #f47f4c;
 }
 
-.fruits-li:nth-child(9) > .fruits-li-div {
+.fruits-li:nth-child(9)>.fruits-li-div {
   background-color: #98b37e;
 }
 
@@ -1012,14 +1100,14 @@ p {
     width: 344px;
   }
 
-  .fruits-li-div > .fruits-img {
+  .fruits-li-div>.fruits-img {
     position: absolute;
     top: 137px;
     left: 25px;
     margin: 0;
   }
 
-  .fruits-li:nth-child(9) > .fruits-li-div {
+  .fruits-li:nth-child(9)>.fruits-li-div {
     display: none;
   }
 }
@@ -1040,19 +1128,20 @@ p {
     margin: 0 auto;
   }
 
-  .fruits-li-div > .fruits-img {
+  .fruits-li-div>.fruits-img {
     position: absolute;
     top: 122px;
     left: 20px;
     margin: 0;
   }
 
-  .fruits-li:nth-child(n + 7) > .fruits-li-div {
+  .fruits-li:nth-child(n + 7)>.fruits-li-div {
     display: none;
   }
 }
 
 /*Koniec sekcji 3 - PIOTR BŁOCH*/
+
 
 /*Sekcja 4 - SZYMON PODBIELSKI*/
 body {
@@ -1269,8 +1358,7 @@ footer {
   background-color: #ae13321a;
 }
 
-.footer-tel-and-location {
-}
+.footer-tel-and-location {}
 
 .footer-tel {
   display: block;
@@ -1450,6 +1538,7 @@ footer {
     right: 24px;
   }
 }
+
 /* koniec stopki - SZYMON PODBIELSKI */
 /* <!-- Sekcja-do-zamawiania-i-pop-up Rafał Szymanek --> */
 .modal {
@@ -1555,6 +1644,7 @@ footer {
 .form-order {
   display: block;
   margin-left: 20px;
+
 }
 
 .form-order-input {
@@ -1587,10 +1677,12 @@ footer {
   background: #9dc162;
   border: none;
   margin: 20px;
+
 }
 
 .head-modal {
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans",
+    sans-serif;
   font-weight: 500;
   font-size: 28px;
   line-height: 100%;
@@ -1612,7 +1704,8 @@ footer {
 }
 
 .p-order {
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans",
+    sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 129%;
@@ -1636,6 +1729,8 @@ footer {
   padding: 0;
   cursor: pointer;
 }
+
+
 
 .checkbox-svg {
   display: flex;
@@ -1717,6 +1812,7 @@ footer {
   .form-order {
     display: grid;
     width: 360px;
+
   }
 
   .list-order {
@@ -1760,35 +1856,7 @@ footer {
   .img-card-order {
     width: 172px;
     height: 148px;
-  }
 
-  .card-order-1 {
-    background-color: #f8766b;
-    border-radius: 20px;
-    display: block;
-    margin-bottom: 12px;
-
-    width: 200px;
-    height: 250px;
-  }
-
-  .card-order-2 {
-    background-color: #edd251;
-    border-radius: 20px;
-    display: block;
-    margin-bottom: 12px;
-
-    width: 200px;
-    height: 250px;
-  }
-
-  .card-order-3 {
-    background-color: #9dc262;
-    border-radius: 20px;
-    display: block;
-
-    width: 200px;
-    height: 250px;
   }
 
   .card-order-1 {
@@ -1851,6 +1919,7 @@ footer {
   .form-order {
     display: grid;
     width: 360px;
+
   }
 
   .list-order {
