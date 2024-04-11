@@ -647,14 +647,7 @@ img {
 }
 /* -------------------> koniec Header style SEBASTIAN STOBIECKI <------------------- */
 
-/* SEKCJA2 MIKOLAJ DROZD */
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit
-}
-
+/* Sekcja 2 MIKOŁAJ DROZD */
 ul {
   padding: 0;
   list-style: none;
@@ -672,14 +665,13 @@ p {
 
 .second-section {
   padding: 0 20px;
-  max-width: 335px;
-  margin-top: 80px;
 }
 
 .txt-div {
   display: flex;
   text-align: center;
   flex-direction: column;
+  margin: auto;
   gap: 14px;
   width: 335px;
 }
@@ -688,9 +680,8 @@ p {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
   font-size: 28px;
-  text-indent: 6px;
   line-height: 28px;
-  letter-spacing: 0.04em;
+  letter-spacing: -0.04em;
   text-transform: uppercase;
   color: #ffffff;
   text-shadow: 0px 4px #0000001A;
@@ -700,12 +691,16 @@ p {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
-  text-indent: 6px;
   line-height: 18px;
-  letter-spacing: 0.04em;
+  letter-spacing: -0.04em;
   color: #ffffff;
   text-shadow: 0px 4px #0000001A;
   margin-bottom: 44px
+}
+
+.div-ul {
+  display: flex;
+  justify-content: center;
 }
 
 .steps-ul {
@@ -726,7 +721,9 @@ p {
 }
 
 .step-div {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 136px;
   max-height: 48px;
   border-radius: 200px;
@@ -737,7 +734,7 @@ p {
   color: #ffffff;
   line-height: 24px;
   font-weight: 400;
-  letter-spacing: 0.04em;
+  letter-spacing: -0.04em;
   text-wrap: nowrap;
   margin-right: 14px;
 }
@@ -753,12 +750,12 @@ p {
 .p-step {
   font-family: "DM Sans", sans-serif;
   font-size: 14px;
-  letter-spacing: 0.04em;
+  letter-spacing: -0.04em;
   color: black;
-  text-indent: 6px;
   line-height: 18px;
   font-weight: 400;
   text-shadow: 0px 4px #0000001A;
+  max-width: 145px;
 }
 
 .s2-gif {
@@ -1035,188 +1032,7 @@ p {
 
 /*Koniec sekcji 3 - PIOTR BŁOCH*/
 
-/*Sekcja 4 - SZYMON PODBIELSKI*/
-body {
-  background-color: #ae1332;
-}
 
-.contacts {
-  background-color: #ae1332;
-  margin-top: 150px;
-}
-
-.contacts-title {
-  text-transform: uppercase;
-  margin: auto;
-  max-width: 740px;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 500;
-  font-size: 64px;
-  line-height: 1;
-  letter-spacing: -0.04em;
-  text-transform: uppercase;
-  text-align: center;
-  color: #fff;
-  position: relative;
-  margin-bottom: -39px;
-}
-
-.contacts-images {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  height: 502px;
-  padding-bottom: 80px;
-}
-
-.kiwi-photo {
-  border-radius: 20px;
-  width: 792px;
-  height: 502px;
-  object-fit: cover;
-}
-
-.blueberries-photo {
-  border-radius: 20px;
-  object-fit: cover;
-  height: 502px;
-}
-
-.contacts-paragraph {
-  font-family: "DM Sans", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.28571;
-  letter-spacing: -0.04em;
-  text-align: center;
-  color: #fff;
-  max-width: 492px;
-  margin: auto;
-  padding-bottom: 80px;
-  padding-top: 80px;
-}
-
-.contacts-label {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 150px;
-}
-
-.contacts-email {
-  background-color: inherit;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.28571;
-  letter-spacing: -0.04em;
-  color: #fff;
-  border-left: 1px solid #ffffff;
-  border-bottom: 1px solid #ffffff;
-  border-top: 1px solid #ffffff;
-  border-right: none;
-  border-radius: 30px 0 0 30px;
-  height: 48px;
-  width: 220px;
-  padding-left: 24px;
-}
-
-.contacts-email::placeholder {
-  font-family: "DM Sans", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.28571;
-  letter-spacing: -0.04em;
-  color: #fff;
-}
-
-.contacts-email:invalid {
-  border-color: red;
-}
-
-.contacts-button {
-  background-color: #9dc162;
-  border: none;
-  border-radius: 30px;
-  width: 102px;
-  color: #ffffff;
-  margin-left: -30px;
-  cursor: pointer;
-}
-
-.contacts-button:hover {
-  background-color: #ffffff;
-  color: #9dc162;
-}
-
-@media (min-width: 768px) and (max-width: 1279px) {
-  .contacts-title {
-    font-family: "DM Sans", sans-serif;
-    font-weight: 500;
-    font-size: 54px;
-    line-height: 1;
-    letter-spacing: -0.04em;
-    text-transform: uppercase;
-    text-align: center;
-    color: #fff;
-    width: 648px;
-    height: 108px;
-    margin-bottom: -29px;
-  }
-
-  .contacts-images {
-    height: 480px;
-    max-width: 704px;
-    margin: auto;
-  }
-
-  .kiwi-photo {
-    width: 344px;
-    height: 480px;
-  }
-
-  .blueberries-photo {
-    width: 344px;
-    height: 480px;
-  }
-}
-
-@media (min-width: 375px) and (max-width: 767px) {
-  .contacts-title {
-    font-family: "DM Sans", sans-serif;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 1;
-    letter-spacing: -0.04em;
-    text-transform: uppercase;
-    text-align: center;
-    color: #fff;
-    max-width: 335px;
-    max-height: 90px;
-  }
-  .contacts-images {
-    width: 335px;
-    height: 476px;
-    margin: auto;
-  }
-
-  .kiwi-photo {
-    width: 335px;
-    height: 476px;
-  }
-
-  .blueberries-photo {
-    display: none;
-  }
-
-  .contacts-paragraph {
-    display: none;
-  }
-
-  .contacts-form {
-    display: none;
-  }
-}
-/*Koniec sekcji 4 - SZYMON PODBIELSKI*/
 /*Sekcja 4 - SZYMON PODBIELSKI*/
 body {
   background-color: #ae1332;
