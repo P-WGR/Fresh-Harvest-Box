@@ -1605,11 +1605,16 @@ footer {
 /* koniec stopki - SZYMON PODBIELSKI */
 /* <!-- Sekcja-do-zamawiania-i-pop-up Rafał Szymanek --> */
 .modal {
+  position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
   background-color: #ffffff;
   border-radius: 20px;
   width: 703px;
   height: 853px;
-  position: relative;
+  visibility: hidden;
+  /* position: relative; */
 }
 
 .card-order-1 {
@@ -1617,6 +1622,9 @@ footer {
   border-radius: 20px;
   display: flex;
   margin-bottom: 12px;
+ 
+   width: 295px;
+height: 119px;
 }
 
 .card-order-2 {
@@ -1624,20 +1632,36 @@ footer {
   border-radius: 20px;
   display: flex;
   margin-bottom: 12px;
+ 
+  width: 295px;
+    height: 119px;
 }
 
 .card-order-3 {
   background-color: #9dc262;
   border-radius: 20px;
   display: flex;
+ 
+    width: 295px;
+      height: 119px;
 }
 
 .pop-up-thank-you {
+  position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
   background-color: #e03f5e;
   border-radius: 20px;
-  position: relative;
+  visibility: hidden;
+  /* position: relative; */
 }
-
+.is-open-thank-you {
+  visibility: visible;
+}
+.is-open {
+  visibility: visible;
+}
 .pop-up-thank-you {
   display: flex;
   flex-wrap: wrap;
@@ -1650,7 +1674,9 @@ footer {
   margin: 0;
   padding: 0;
   display: block;
-  margin: 12px 20px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-left: 20px;
 }
 
 .thank-you {
@@ -1710,7 +1736,8 @@ footer {
   height: 42px;
   background: #9dc162;
   border: none;
-  margin-left: 20px;
+  margin: 20px;
+ 
 }
 
 .head-modal {
@@ -1763,21 +1790,35 @@ footer {
   cursor: pointer;
 }
 
-h2 {
-  margin: 0;
+
+
+.checkbox-svg {
+      display: flex;
+        justify-content: right;
+        padding: 10px;
+}
+.promoted-input-checkbox {
+  /* border: 0; */
+  clip: rect(0 0 0 0);
+  /* height: 1px; */
+  /* margin: -1px; */
+  overflow: hidden;
+  /* padding: 0; */
+  position: absolute;
+  /* width: 1px; */
 }
 
 @media (min-width: 375px) and (max-width: 767px) {
   .modal {
     width: 335px;
-    height: 902px;
+    height: auto;
     margin: 0 auto;
   }
 
   .pop-up-thank-you {
     width: 335px;
     height: 426px;
-    margin: 40px auto;
+    margin: 0 auto;
   }
 
   .women-banana {
@@ -1803,14 +1844,14 @@ h2 {
 @media (min-width: 768px) and (max-width: 1279px) {
   .modal {
     width: 703px;
-    height: 853px;
+    height: auto;
     margin: 0 auto;
   }
 
   .pop-up-thank-you {
     width: 600px;
     height: 545px;
-    margin: 40px auto;
+    margin: 0 auto;
   }
 
   .thank-you {
@@ -1830,12 +1871,13 @@ h2 {
   .form-order {
     display: grid;
     width: 360px;
-    height: 399px;
+    
   }
 
   .list-order {
     display: flex;
     gap: 12px;
+    justify-content: center;
   }
 
   .text-thankyou {
@@ -1873,20 +1915,49 @@ h2 {
   .img-card-order {
     width: 172px;
     height: 148px;
+    
   }
+ .card-order-1 {
+   background-color: #f8766b;
+   border-radius: 20px;
+   display: block;
+   margin-bottom: 12px;
+
+  width: 200px;
+    height: 250px;
+ }
+
+ .card-order-2 {
+   background-color: #edd251;
+   border-radius: 20px;
+   display: block;
+   margin-bottom: 12px;
+
+  width: 200px;
+    height: 250px;
+ }
+
+ .card-order-3 {
+   background-color: #9dc262;
+   border-radius: 20px;
+   display: block;
+
+  width: 200px;
+    height: 250px;
+ }
 }
 
 @media (min-width: 1280px) {
   .modal {
     width: 891px;
-    height: 911px;
+    height: auto;
     margin: 0 auto;
   }
 
   .pop-up-thank-you {
     width: 600px;
     height: 545px;
-    margin: 40px auto;
+    margin: 0 auto;
   }
 
   .thank-you {
@@ -1906,7 +1977,7 @@ h2 {
   .form-order {
     display: grid;
     width: 360px;
-    height: 399px;
+
   }
 
   .list-order {
@@ -1914,6 +1985,8 @@ h2 {
     gap: 12px;
     width: 811px;
     height: 308px;
+    margin: 0 auto;
+    margin-bottom: 40px;
   }
 
   .text-thankyou {
@@ -1951,5 +2024,40 @@ h2 {
     width: 229px;
     height: 196px;
   }
+    .card-order-1 {
+      background-color: #f8766b;
+      border-radius: 20px;
+      display: block;
+      margin-bottom: 12px;
+  
+      width: 257px;
+      height: 308px;
+    }
+  
+    .card-order-2 {
+      background-color: #edd251;
+      border-radius: 20px;
+      display: block;
+      margin-bottom: 12px;
+  
+      width: 257px;
+      height: 308px;
+    }
+  
+    .card-order-3 {
+      background-color: #9dc262;
+      border-radius: 20px;
+      display: block;
+  
+      width: 257px;
+      height: 308px;
+    }
+}
+.label-rectangle {
+  position: relative;
+}
+
+.white {
+  fill: #fff;
 }
 /* <!-- Koniec sekcji-do-zamawiania-i-pop-up Rafał Szymanek --> */
