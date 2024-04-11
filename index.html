@@ -491,7 +491,7 @@
     </footer>
     <!--koniec stopki - SZYMON PODBIELSKI-->
 <!-- Sekcja-do-zamawiania-i-pop-up Rafał Szymanek -->
-<div class="modal">
+<div class="modal is-open">
   <button class="x-button" type="button">
     <svg class="x-button-svg" width="24" height="24">
       <use href="./images/icon-modal.svg#icon-x" />
@@ -500,36 +500,85 @@
   <h2 class="head-modal">Your Order</h2>
   <ul class="list-order">
     <li class="card-order-1">
-      <div>
-        <h3 class="head-order">Strawberry Basket</h3>
-        <p class="p-order">Plant</p>
-      </div>
-      <label>
-        <img class="img-card-order-1" width="107px" height="95px" src="./images/window-order/desktop/strawberry.png"
-          alt="Strawberry in a basket">
-        <input type="checkbox" src="./images/icon-modal.svg#icon-check">
+      <label class="label-rectangle card-order-1" id="rectangle">
+        <div class="checkbox-svg">
+          <input type="checkbox" id="rectangle" class="promoted-input-checkbox">
+          <svg class="svg-rectangle" width="20px" height="20px">
+            <use href="./images/icon-modal.svg#icon-Rectangle"></use>
+          </svg>
+        </div>
+        <div class="div-head-p-card-order">
+          <h3 class="head-order">Strawberry Basket</h3>
+          <p class="p-order">Plant</p>
+        </div>
+
+
+        <picture>
+          <source media="(min-width: 1280px)"
+            srcset="./images/window-order/desktop/strawberry.png 1x, ./images/window-order/desktop/strawberry@2.png 2x"
+            type="image/png" />
+          <source media="(min-width: 768px)"
+            srcset="./images/window-order/tablet/strawberry.png 1x, ./images/window-order/tablet/strawberry@2.png 2x"
+            type="image/png" />
+          <source media="(max-width: 767px)"
+            srcset="./images/window-order/mobile/strawberry.png 1x, ./images/window-order/mobile/strawberry@2.png 2x"
+            type="image/png" />
+          <img src="./images/window-order/mobile/strawberry.png" alt="Strawberry in a basket" />
+        </picture>
       </label>
+
     </li>
     <li class="card-order-2">
-      <div>
-        <h3 class="head-order">Apple Basket</h3>
-        <p class="p-order">Plant</p>
-      </div>
-      <label>
-        <img class="img-card-order" width="107px" height="95px" src="./images/window-order/desktop/apple-box.png"
-          alt="Apple in a box">
-        <input type="checkbox">
+      <label class="label-rectangle card-order-2" id="rectangle">
+        <div class="checkbox-svg">
+          <input type="checkbox" id="rectangle" class="promoted-input-checkbox">
+          <svg class="svg-rectangle" width="20px" height="20px">
+            <use href="./images/icon-modal.svg#icon-Rectangle"></use>
+          </svg>
+        </div>
+        <div>
+          <h3 class="head-order">Apple Basket</h3>
+          <p class="p-order">Plant</p>
+        </div>
+        <picture>
+          <source media="(min-width: 1280px)"
+            srcset="./images/window-order/desktop/apple-box.png 1x, ./images/window-order/desktop/apple-box@2.png 2x"
+            type="image/png" />
+          <source media="(min-width: 768px)"
+            srcset="./images/window-order/tablet/apple-box.png 1x, ./images/window-order/tablet/apple-box@2.png 2x"
+            type="image/png" />
+          <source media="(max-width: 767px)"
+            srcset="./images/window-order/mobile/apple-box.png 1x, ./images/window-order/mobile/apple-box@2.png 2x"
+            type="image/png" />
+          <img src="./images/window-order/mobile/apple-box.png" alt="Apple in a box" />
+        </picture>
       </label>
     </li>
     <li class="card-order-3">
-      <div>
-        <h3 class="head-order">Fruits Basket</h3>
-        <p class="p-order">Plant</p>
-      </div>
-      <label>
-        <img class="img-card-order" width="107px" height="95px" src="./images/window-order/desktop/fruts-basket.png"
-          alt="fruit in a basket">
-        <input type="checkbox">
+      <label class="label-rectangle card-order-3" id="rectangle">
+        <div class="checkbox-svg">
+          <input type="checkbox" id="rectangle" class="promoted-input-checkbox">
+          <svg class="svg-rectangle" width="20px" height="20px">
+            <use href="./images/icon-modal.svg#icon-Rectangle"></use>
+          </svg>
+        </div>
+        <div>
+          <h3 class="head-order">Fruits Basket</h3>
+          <p class="p-order">Plant</p>
+        </div>
+
+        <picture>
+          <source media="(min-width: 1280px)"
+            srcset="./images/window-order/desktop/fruts-basket.png 1x, ./images/window-order/desktop/fruts-basket@2.png 2x"
+            type="image/png" />
+          <source media="(min-width: 768px)"
+            srcset="./images/window-order/tablet/fruts-basket.png 1x, ./images/window-order/tablet/fruts-basket@2.png 2x"
+            type="image/png" />
+          <source media="(max-width: 767px)"
+            srcset="./images/window-order/mobile/fruts-basket.png 1x, ./images/window-order/mobile/fruts-basket@2.png 2x"
+            type="image/png" />
+          <img src="./images/window-order/mobile/fruts-basket.png" alt="fruit in a basket" />
+        </picture>
       </label>
     </li>
   </ul>
@@ -562,10 +611,10 @@ Enter comments...</textarea>
     </picture>
   </div>
 </div>
-<div class="pop-up-thank-you">
+<div class="pop-up-thank-you is-open-thank-you">
   <button class="x-button" type="button">
     <svg class="x-button-svg" width="24" height="24">
-      <use href="./images/icon-modal.svg#icon-x" />
+      <use href="./images/icon-modal.svg#icon-x-white" />
     </svg>
   </button>
   <img class="raspberry" src="./images/window-order/desktop/raspberry.png" />
