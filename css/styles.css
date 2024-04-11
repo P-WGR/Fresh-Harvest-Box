@@ -102,6 +102,7 @@ img {
 .busket-icon {
   width: 28px;
   height: 28px;
+  padding: 0 32px;
 }
 
 /* HAMBURGER */
@@ -167,6 +168,7 @@ img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
+  font-size: 20px;
   border: none;
   cursor: pointer;
   position: absolute;
@@ -180,6 +182,8 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
   color: #ae1332;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   transform: rotate(-14deg);
@@ -313,7 +317,7 @@ img {
   border-radius: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -326,7 +330,6 @@ img {
   letter-spacing: -0.04em;
   text-transform: uppercase;
   text-align: center;
-
   color: #ffffff;
 }
 
@@ -379,7 +382,7 @@ img {
   border-radius: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -424,6 +427,11 @@ img {
     display: none;
   }
 
+  .menu-container {
+    width: 787px;
+    margin: 0;
+  }
+
   .header-title {
     position: absolute;
     width: 704px;
@@ -433,6 +441,7 @@ img {
     font-size: 50px;
     line-height: 54px;
   }
+
   .strawberry-img {
     width: 108px;
     height: 108px;
@@ -447,7 +456,83 @@ img {
     width: 114px;
     height: 114px;
   }
+
+  .shopnow-text {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .hero{
+    position: relative;
+    width: 768px;
+    height: 1612px;
+  }
+  
+
+  .hero-photo {
+    width: 786px;
+    height: 1562px;
+  }
+
+  .header-title {
+    width: 704px;
+    height: 168px;
+    position: absolute;
+    top: 64px;
+    left: calc(50% - 704px / 2);
+  }
+
+  .shopnow-btn {
+    position: absolute;
+    top: 745px;
+    left: 327px;
+    width: 114px;
+    height: 114px;  
+  }
+
+  .red-head-img {
+    position: absolute;
+    top: 122px;
+    left: 158px;
+    width: 452px;
+    height: 702px;
+  }
+
+  .banana-img {
+    position: absolute;
+    top: 169px;
+    left: 27.22px;
+  }
+
+  .strawberry-img {
+    position: absolute;
+    top: 55px;
+    left: 623px;
+  }
+
+  .left-hero {
+    position: absolute;
+    left: 32px;
+    top: 903px;
+  }
+
+  .txt-header {
+    padding: 0px;
+  }
+
+  .right-hero {
+    position: absolute;
+    top: 903px;
+    left: 455px;
+    flex-direction: column-reverse;
+  }
+
+  .blocks-list {
+    justify-content: flex-end;
+    column-gap: 0;
+  }
 }
+  
 
 /* --------- DESKTOP *1280px* ----------*/
 @media screen and (min-width: 1280px) {
@@ -513,6 +598,12 @@ img {
     left: 583px;
     width: 114px;
     height: 114px;
+    font-size: 28px;
+  }
+
+  .shopnow-text {
+    font-size: 28px;
+    line-height: 28px;
   }
 
   .hero {
@@ -673,6 +764,52 @@ p {
 
 /*Sekcja 3 - PIOTR BŁOCH */
 
+/* BUTTON */
+
+.fruits-button {
+  min-width: 114px;
+  height: 114px;
+  background-color: #9dc262;
+  border: none;
+  border-radius: 57px;
+  display: block;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  cursor: pointer;
+
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+.fruits-button:hover {
+  background-color: #ffffff;
+  color: #9dc262;
+}
+
+.fruits-button>div {
+  transform: rotate(-15deg);
+  transform-origin: 0 0;
+}
+
+.fruits-button-svg {
+  margin-left: 0px;
+  fill: #ffffff;
+}
+
+.fruits-button:hover>.fruits-button-svg {
+  fill: #9dc262;
+}
+
+/* BUTTON */
+
 .fruits-container {
   width: 1216px;
   gap: 44px;
@@ -683,6 +820,7 @@ p {
   width: 624px;
   margin: 0 auto;
 }
+
 .fruits-title {
   text-transform: uppercase;
   font-family: DM Sans;
@@ -692,7 +830,9 @@ p {
   letter-spacing: -0.04em;
   text-align: center;
   color: #ffffff;
+
 }
+
 .fruits-paragraph {
   font-family: DM Sans;
   font-size: 14px;
@@ -701,6 +841,7 @@ p {
   letter-spacing: -0.04em;
   text-align: center;
   color: #ffffff;
+  margin: 14px 0 44px 0;
 }
 
 .fruits-list {
@@ -709,7 +850,9 @@ p {
   flex-wrap: wrap;
   gap: 24px 24px;
   padding: 0;
+  justify-content: center;
 }
+
 .fruits-li-div {
   position: relative;
   align-items: center;
@@ -720,7 +863,7 @@ p {
   margin-bottom: 0px;
 }
 
-.fruits-li-div > .fruits-li-h3 {
+.fruits-li-div>.fruits-li-h3 {
   position: absolute;
   top: 64px;
   left: 24px;
@@ -734,7 +877,8 @@ p {
   text-align: left;
   color: #ffffff;
 }
-.fruits-li-div > .fruits-li-p {
+
+.fruits-li-div>.fruits-li-p {
   position: absolute;
   top: 109px;
   left: 24px;
@@ -749,14 +893,22 @@ p {
   color: #ffffff;
 }
 
-.fruits-li-div > .fruits-img {
+.fruits-li-div>.fruits-img {
   position: absolute;
   top: 137px;
   left: 47px;
   margin: 0;
 }
 
-.fruits-li-div > .fruits-price {
+.fruits-img>.fruits-oval {
+  position: absolute;
+  top: 237px;
+  left: 43.5px;
+  margin: 0;
+  display: flex;
+}
+
+.fruits-li-div>.fruits-price {
   position: absolute;
   display: flex;
   align-items: center;
@@ -784,31 +936,39 @@ p {
   padding: 0;
 }
 
-.fruits-li:nth-child(1) > .fruits-li-div {
+.fruits-li:nth-child(1)>.fruits-li-div {
   background-color: #f8766b;
 }
-.fruits-li:nth-child(2) > .fruits-li-div {
+
+.fruits-li:nth-child(2)>.fruits-li-div {
   background-color: #edd251;
 }
-.fruits-li:nth-child(3) > .fruits-li-div {
+
+.fruits-li:nth-child(3)>.fruits-li-div {
   background-color: #9dc262;
 }
-.fruits-li:nth-child(4) > .fruits-li-div {
+
+.fruits-li:nth-child(4)>.fruits-li-div {
   background-color: #bfd663;
 }
-.fruits-li:nth-child(5) > .fruits-li-div {
+
+.fruits-li:nth-child(5)>.fruits-li-div {
   background-color: #e93f29;
 }
-.fruits-li:nth-child(6) > .fruits-li-div {
+
+.fruits-li:nth-child(6)>.fruits-li-div {
   background-color: #db4f4b;
 }
-.fruits-li:nth-child(7) > .fruits-li-div {
+
+.fruits-li:nth-child(7)>.fruits-li-div {
   background-color: #9b5366;
 }
-.fruits-li:nth-child(8) > .fruits-li-div {
+
+.fruits-li:nth-child(8)>.fruits-li-div {
   background-color: #f47f4c;
 }
-.fruits-li:nth-child(9) > .fruits-li-div {
+
+.fruits-li:nth-child(9)>.fruits-li-div {
   background-color: #98b37e;
 }
 
@@ -823,11 +983,15 @@ p {
     width: 344px;
   }
 
-  .fruits-li-div > .fruits-img {
+  .fruits-li-div>.fruits-img {
     position: absolute;
     top: 137px;
     left: 25px;
     margin: 0;
+  }
+
+  .fruits-li:nth-child(9)>.fruits-li-div {
+    display: none;
   }
 }
 
@@ -846,9 +1010,20 @@ p {
     width: 335px;
     margin: 0 auto;
   }
+
+  .fruits-li-div>.fruits-img {
+    position: absolute;
+    top: 122px;
+    left: 20px;
+    margin: 0;
+  }
+
+  .fruits-li:nth-child(n + 7)>.fruits-li-div {
+    display: none;
+  }
 }
 
-/*Sekcja 3 - PIOTR BŁOCH*/
+/*Koniec sekcji 3 - PIOTR BŁOCH*/
 
 /*Sekcja 4 - SZYMON PODBIELSKI*/
 body {
@@ -1030,7 +1205,122 @@ body {
   .contacts-form {
     display: none;
   }
-} /*Koniec sekcji 4 - SZYMON PODBIELSKI*/
+}
+/*Koniec sekcji 4 - SZYMON PODBIELSKI*/
+/*Sekcja 4 - SZYMON PODBIELSKI*/
+body {
+  background-color: #ae1332;
+}
+
+.contacts {
+  background-color: #ae1332;
+  margin-top: 150px;
+}
+
+.contacts-title {
+  text-transform: uppercase;
+  margin: auto;
+  max-width: 740px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  margin-bottom: -39px;
+}
+
+.contacts-images {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  height: 502px;
+  padding-bottom: 80px;
+}
+
+.kiwi-photo {
+  border-radius: 20px;
+  width: 792px;
+  height: 502px;
+  object-fit: cover;
+}
+
+.blueberries-photo {
+  border-radius: 20px;
+  object-fit: cover;
+  height: 502px;
+}
+
+.contacts-paragraph {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #fff;
+  max-width: 492px;
+  margin: auto;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.contacts-label {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 150px;
+}
+
+.contacts-email {
+  background-color: inherit;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.04em;
+  color: #fff;
+  border-left: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
+  border-right: none;
+  border-radius: 30px 0 0 30px;
+  height: 48px;
+  width: 220px;
+  padding-left: 24px;
+}
+
+.contacts-email::placeholder {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+
+.contacts-email:invalid {
+  border-color: red;
+}
+
+.contacts-button {
+  background-color: #9dc162;
+  border: none;
+  border-radius: 30px;
+  width: 102px;
+  color: #ffffff;
+  margin-left: -30px;
+  cursor: pointer;
+}
+
+.contacts-button:hover {
+  background-color: #ffffff;
+  color: #9dc162;
+}
+
+/*Koniec sekcji 4 - SZYMON PODBIELSKI*/
 
 /* Stopka - SZYMON PODBIELSKI */
 footer {
@@ -1051,6 +1341,11 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.footer-img-and-nav {
+  display: flex;
+  gap: 243px;
 }
 
 .woman-with-bananas {
@@ -1086,6 +1381,8 @@ footer {
   display: flex;
   gap: 20px;
   padding-top: 164px;
+  margin: 0;
+  padding-top: 164px;
 }
 
 .footer-nav-link {
@@ -1101,6 +1398,7 @@ footer {
 
 .footer-socials-and-address {
   padding-top: 80px;
+  padding-right: 32px;
 }
 
 .footer-social-media-list {
@@ -1124,10 +1422,8 @@ footer {
   background-color: #ae13321a;
 }
 
-/* .footer-tel-and-location {
+.footer-tel-and-location {}
 
-}
-*/
 .footer-tel {
   display: block;
   margin-top: 40px;
@@ -1151,4 +1447,509 @@ footer {
   text-decoration: none;
 }
 
+.footer-socials-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.instagram-circle {
+  position: relative;
+  right: 26px;
+  margin: 0;
+  padding: 0;
+  width: 8px;
+  height: 8px;
+}
+
+.youtube {
+  position: relative;
+  right: 8px;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .contacts-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    width: 648px;
+    height: 108px;
+    margin-bottom: -29px;
+  }
+
+  .contacts-images {
+    height: 480px;
+    max-width: 704px;
+    margin: auto;
+  }
+
+  .kiwi-photo {
+    width: 344px;
+    height: 480px;
+  }
+
+  .blueberries-photo {
+    width: 344px;
+    height: 480px;
+  }
+
+  footer {
+    height: 475px;
+  }
+
+  .footer-img-and-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+  }
+
+  .footer-nav-list {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .contacts-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    max-width: 335px;
+    max-height: 90px;
+  }
+
+  .contacts-images {
+    width: 335px;
+    height: 476px;
+    margin: auto;
+  }
+
+  .kiwi-photo {
+    width: 335px;
+    height: 476px;
+  }
+
+  .blueberries-photo {
+    display: none;
+  }
+
+  .contacts-paragraph {
+    display: none;
+  }
+
+  .contacts-form {
+    display: none;
+  }
+
+  footer {
+    min-height: 626px;
+    margin-top: 80px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 626px;
+    justify-content: center;
+    width: 375px;
+    gap: 40px;
+  }
+
+  .footer-img-and-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-img-and-logo {
+    padding-left: 0;
+    padding-top: 80px;
+  }
+
+  .footer-nav-list {
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-socials-and-address {
+    padding: 0;
+    margin-bottom: 80px;
+  }
+
+  .footer-social-media-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .instagram-circle {
+    width: 8px;
+    height: 8px;
+    right: 24px;
+  }
+}
 /* koniec stopki - SZYMON PODBIELSKI */
+/* <!-- Sekcja-do-zamawiania-i-pop-up Rafał Szymanek --> */
+.modal {
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 703px;
+  height: 853px;
+  position: relative;
+}
+
+.card-order-1 {
+  background-color: #f8766b;
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.card-order-2 {
+  background-color: #edd251;
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.card-order-3 {
+  background-color: #9dc262;
+  border-radius: 20px;
+  display: flex;
+}
+
+.pop-up-thank-you {
+  background-color: #e03f5e;
+  border-radius: 20px;
+  position: relative;
+}
+
+.pop-up-thank-you {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.list-order {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin: 12px 20px;
+}
+
+.thank-you {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+}
+
+.p-thanks {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form-order {
+  display: block;
+  margin-left: 20px;
+
+}
+
+.form-order-input {
+  border: 1px solid #000;
+  border-radius: 100px;
+  width: 295px;
+  height: 46px;
+  margin-bottom: 14px;
+  opacity: 0.3;
+}
+
+.text-area {
+  border-radius: 20px;
+  width: 295px;
+  height: 132px;
+}
+
+.submit-button {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.04em;
+  text-transform: capitalize;
+  color: #fff;
+  border-radius: 100px;
+  padding: 12px 24px;
+  width: 92px;
+  height: 42px;
+  background: #9dc162;
+  border: none;
+  margin-left: 20px;
+}
+
+.head-modal {
+  font-family: "DM Sans",
+    sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #ae1332;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+  padding: 40px 20px;
+}
+
+.head-order {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 133%;
+  letter-spacing: -0.04em;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.p-order {
+  font-family: "DM Sans",
+    sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.x-button {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+}
+
+h2 {
+  margin: 0;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .modal {
+    width: 335px;
+    height: 902px;
+    margin: 0 auto;
+  }
+
+  .pop-up-thank-you {
+    width: 335px;
+    height: 426px;
+    margin: 40px auto;
+  }
+
+  .women-banana {
+    display: none;
+  }
+
+  .raspberry {
+    width: 207px;
+    height: 176px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .text-thankyou {
+    width: 295px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .modal {
+    width: 703px;
+    height: 853px;
+    margin: 0 auto;
+  }
+
+  .pop-up-thank-you {
+    width: 600px;
+    height: 545px;
+    margin: 40px auto;
+  }
+
+  .thank-you {
+    font-size: 40px;
+    line-height: 110%;
+  }
+
+  .head-modal {
+    font-size: 40px;
+    line-height: 110%;
+  }
+
+  .form-and-img {
+    display: flex;
+  }
+
+  .form-order {
+    display: grid;
+    width: 360px;
+    height: 399px;
+  }
+
+  .list-order {
+    display: flex;
+    gap: 12px;
+  }
+
+  .text-thankyou {
+    width: 391px;
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .raspberry {
+    width: 278px;
+    height: 239px;
+    margin: 0 auto;
+    margin-top: 68px;
+  }
+
+  .card-order-1 {
+    flex-wrap: wrap;
+  }
+
+  .card-order-2 {
+    flex-wrap: wrap;
+  }
+
+  .card-order-3 {
+    flex-wrap: wrap;
+  }
+
+  .img-card-order-1 {
+    width: 133px;
+    height: 148px;
+  }
+
+  .img-card-order {
+    width: 172px;
+    height: 148px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .modal {
+    width: 891px;
+    height: 911px;
+    margin: 0 auto;
+  }
+
+  .pop-up-thank-you {
+    width: 600px;
+    height: 545px;
+    margin: 40px auto;
+  }
+
+  .thank-you {
+    font-size: 40px;
+    line-height: 110%;
+  }
+
+  .head-modal {
+    font-size: 40px;
+    line-height: 110%;
+  }
+
+  .form-and-img {
+    display: flex;
+  }
+
+  .form-order {
+    display: grid;
+    width: 360px;
+    height: 399px;
+  }
+
+  .list-order {
+    display: flex;
+    gap: 12px;
+    width: 811px;
+    height: 308px;
+  }
+
+  .text-thankyou {
+    width: 391px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .raspberry {
+    width: 278px;
+    height: 239px;
+    margin: 0 auto;
+    margin-top: 68px;
+  }
+
+  .card-order-1 {
+    flex-wrap: wrap;
+  }
+
+  .card-order-2 {
+    flex-wrap: wrap;
+  }
+
+  .card-order-3 {
+    flex-wrap: wrap;
+  }
+
+  .img-card-order-1 {
+    width: 173px;
+    height: 196px;
+  }
+
+  .img-card-order {
+    width: 229px;
+    height: 196px;
+  }
+}
+/* <!-- Koniec sekcji-do-zamawiania-i-pop-up Rafał Szymanek --> */
