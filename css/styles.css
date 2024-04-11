@@ -208,7 +208,11 @@ img {
 
 .red-head-img {
   border-radius: 500px;
-  border: 1px solid rgb(255, 255, 255);
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  background: linear-gradient(#AE1332, #AE1332) padding-box, linear-gradient(#AE1332, #FFFFFF) border-box;
+
 
   padding: 12px;
   width: 311px;
