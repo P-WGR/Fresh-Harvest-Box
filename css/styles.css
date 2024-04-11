@@ -830,6 +830,7 @@ p {
   letter-spacing: -0.04em;
   text-align: center;
   color: #ffffff;
+
 }
 
 .fruits-paragraph {
@@ -840,6 +841,7 @@ p {
   letter-spacing: -0.04em;
   text-align: center;
   color: #ffffff;
+  margin: 14px 0 44px 0;
 }
 
 .fruits-list {
@@ -1020,6 +1022,7 @@ p {
     display: none;
   }
 }
+
 /*Koniec sekcji 3 - PIOTR BŁOCH*/
 
 /*Sekcja 4 - SZYMON PODBIELSKI*/
