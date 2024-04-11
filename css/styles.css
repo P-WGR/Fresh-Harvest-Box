@@ -185,7 +185,6 @@ img {
 
 .shopnow-text:hover {
   color: rgba(164, 203, 102, 1);
-
 }
 
 .header-title {
@@ -211,8 +210,8 @@ img {
   border-width: 1px;
   border-style: solid;
   border-color: transparent;
-  background: linear-gradient(#AE1332, #AE1332) padding-box, linear-gradient(#AE1332, #FFFFFF) border-box;
-
+  background: linear-gradient(#ae1332, #ae1332) padding-box,
+    linear-gradient(#ae1332, #ffffff) border-box;
 
   padding: 12px;
   width: 311px;
@@ -309,6 +308,7 @@ img {
   padding: 48px;
   margin: 0 auto;
   height: 387px;
+  width: 249px;
   background-color: #a4cb66;
   border-radius: 500px;
   display: flex;
@@ -347,12 +347,10 @@ img {
 
 .blocks {
   margin: 0 auto;
-  width: 360px;
+  max-width: 375px;
 }
 
 .blocks-list {
-  padding: 0;
-  margin: 0;
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -374,6 +372,7 @@ img {
 .basketberry {
   padding: 48px;
   height: 387px;
+  width: 249px;
   background-color: #f5ce13;
   border-radius: 500px;
   display: flex;
@@ -413,17 +412,7 @@ img {
 
   .menu-container {
     width: 375px;
-    padding: 0 35px;
-  }
-
-  .block-item {
-    width: 112px;
-  }
-
-  .blocks-list {
-    align-items: center;
-    justify-content: center;
-    width: 400px;
+    padding: 0 20px;
   }
 
   .banana-img {
@@ -436,6 +425,23 @@ img {
     position: absolute;
     left: 299px;
     top: 56px;
+  }
+
+  .blocks-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 8px;
+    row-gap: 8px;
+  }
+
+  .block-item {
+    width: 1px;
+  }
+
+  .right-hero {
+    margin: 0 auto;
+    max-width: 768px;
   }
 }
 
@@ -684,11 +690,12 @@ h3,
 h4,
 h5,
 p {
-  margin: 0
+  margin: 0;
 }
 
 .second-section {
   padding: 0 20px;
+  margin: 80px auto;
 }
 
 .txt-div {
@@ -708,7 +715,7 @@ p {
   letter-spacing: -0.04em;
   text-transform: uppercase;
   color: #ffffff;
-  text-shadow: 0px 4px #0000001A;
+  text-shadow: 0px 4px #0000001a;
 }
 
 .smaller-txt {
@@ -718,8 +725,8 @@ p {
   line-height: 18px;
   letter-spacing: -0.04em;
   color: #ffffff;
-  text-shadow: 0px 4px #0000001A;
-  margin-bottom: 44px
+  text-shadow: 0px 4px #0000001a;
+  margin-bottom: 44px;
 }
 
 .div-ul {
@@ -752,7 +759,7 @@ p {
   max-height: 48px;
   border-radius: 200px;
   padding: 15px 42px 15px 42px;
-  background-color: #AE1332;
+  background-color: #ae1332;
   font-family: "DM Sans", sans-serif;
   font-size: 18px;
   color: #ffffff;
@@ -764,11 +771,11 @@ p {
 }
 
 .step-div_2 {
-  background-color: #A1C864;
+  background-color: #a1c864;
 }
 
 .step-div_3 {
-  background-color: #F5CE13;
+  background-color: #f5ce13;
 }
 
 .p-step {
@@ -778,7 +785,7 @@ p {
   color: black;
   line-height: 18px;
   font-weight: 400;
-  text-shadow: 0px 4px #0000001A;
+  text-shadow: 0px 4px #0000001a;
   max-width: 145px;
 }
 
@@ -798,7 +805,6 @@ p {
 }
 
 @media (min-width: 768px) and (max-width: 1279px) {
-
   /* .second-section {
   } */
 
@@ -834,11 +840,11 @@ p {
 
   .s2-gif {
     width: 704px;
+    height: 476px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-
   .second-section {
     padding: 0 32px;
   }
@@ -915,7 +921,7 @@ p {
   color: #9dc262;
 }
 
-.fruits-button>div {
+.fruits-button > div {
   transform: rotate(-15deg);
   transform-origin: 0 0;
 }
@@ -925,7 +931,7 @@ p {
   fill: #ffffff;
 }
 
-.fruits-button:hover>.fruits-button-svg {
+.fruits-button:hover > .fruits-button-svg {
   fill: #9dc262;
 }
 
@@ -951,7 +957,6 @@ p {
   letter-spacing: -0.04em;
   text-align: center;
   color: #ffffff;
-
 }
 
 .fruits-paragraph {
@@ -984,7 +989,7 @@ p {
   margin-bottom: 0px;
 }
 
-.fruits-li-div>.fruits-li-h3 {
+.fruits-li-div > .fruits-li-h3 {
   position: absolute;
   top: 64px;
   left: 24px;
@@ -999,7 +1004,7 @@ p {
   color: #ffffff;
 }
 
-.fruits-li-div>.fruits-li-p {
+.fruits-li-div > .fruits-li-p {
   position: absolute;
   top: 109px;
   left: 24px;
@@ -1014,14 +1019,14 @@ p {
   color: #ffffff;
 }
 
-.fruits-li-div>.fruits-img {
+.fruits-li-div > .fruits-img {
   position: absolute;
   top: 137px;
   left: 47px;
   margin: 0;
 }
 
-.fruits-img>.fruits-oval {
+.fruits-img > .fruits-oval {
   position: absolute;
   top: 237px;
   left: 43.5px;
@@ -1029,7 +1034,7 @@ p {
   display: flex;
 }
 
-.fruits-li-div>.fruits-price {
+.fruits-li-div > .fruits-price {
   position: absolute;
   display: flex;
   align-items: center;
@@ -1057,39 +1062,39 @@ p {
   padding: 0;
 }
 
-.fruits-li:nth-child(1)>.fruits-li-div {
+.fruits-li:nth-child(1) > .fruits-li-div {
   background-color: #f8766b;
 }
 
-.fruits-li:nth-child(2)>.fruits-li-div {
+.fruits-li:nth-child(2) > .fruits-li-div {
   background-color: #edd251;
 }
 
-.fruits-li:nth-child(3)>.fruits-li-div {
+.fruits-li:nth-child(3) > .fruits-li-div {
   background-color: #9dc262;
 }
 
-.fruits-li:nth-child(4)>.fruits-li-div {
+.fruits-li:nth-child(4) > .fruits-li-div {
   background-color: #bfd663;
 }
 
-.fruits-li:nth-child(5)>.fruits-li-div {
+.fruits-li:nth-child(5) > .fruits-li-div {
   background-color: #e93f29;
 }
 
-.fruits-li:nth-child(6)>.fruits-li-div {
+.fruits-li:nth-child(6) > .fruits-li-div {
   background-color: #db4f4b;
 }
 
-.fruits-li:nth-child(7)>.fruits-li-div {
+.fruits-li:nth-child(7) > .fruits-li-div {
   background-color: #9b5366;
 }
 
-.fruits-li:nth-child(8)>.fruits-li-div {
+.fruits-li:nth-child(8) > .fruits-li-div {
   background-color: #f47f4c;
 }
 
-.fruits-li:nth-child(9)>.fruits-li-div {
+.fruits-li:nth-child(9) > .fruits-li-div {
   background-color: #98b37e;
 }
 
@@ -1104,14 +1109,14 @@ p {
     width: 344px;
   }
 
-  .fruits-li-div>.fruits-img {
+  .fruits-li-div > .fruits-img {
     position: absolute;
     top: 137px;
     left: 25px;
     margin: 0;
   }
 
-  .fruits-li:nth-child(9)>.fruits-li-div {
+  .fruits-li:nth-child(9) > .fruits-li-div {
     display: none;
   }
 }
@@ -1132,20 +1137,19 @@ p {
     margin: 0 auto;
   }
 
-  .fruits-li-div>.fruits-img {
+  .fruits-li-div > .fruits-img {
     position: absolute;
     top: 122px;
     left: 20px;
     margin: 0;
   }
 
-  .fruits-li:nth-child(n + 7)>.fruits-li-div {
+  .fruits-li:nth-child(n + 7) > .fruits-li-div {
     display: none;
   }
 }
 
 /*Koniec sekcji 3 - PIOTR BŁOCH*/
-
 
 /*Sekcja 4 - SZYMON PODBIELSKI*/
 body {
@@ -1362,7 +1366,8 @@ footer {
   background-color: #ae13321a;
 }
 
-.footer-tel-and-location {}
+.footer-tel-and-location {
+}
 
 .footer-tel {
   display: block;
@@ -1648,7 +1653,6 @@ footer {
 .form-order {
   display: block;
   margin-left: 20px;
-
 }
 
 .form-order-input {
@@ -1681,12 +1685,10 @@ footer {
   background: #9dc162;
   border: none;
   margin: 20px;
-
 }
 
 .head-modal {
-  font-family: "DM Sans",
-    sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 500;
   font-size: 28px;
   line-height: 100%;
@@ -1708,8 +1710,7 @@ footer {
 }
 
 .p-order {
-  font-family: "DM Sans",
-    sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 129%;
@@ -1733,8 +1734,6 @@ footer {
   padding: 0;
   cursor: pointer;
 }
-
-
 
 .checkbox-svg {
   display: flex;
@@ -1816,7 +1815,6 @@ footer {
   .form-order {
     display: grid;
     width: 360px;
-
   }
 
   .list-order {
@@ -1860,7 +1858,6 @@ footer {
   .img-card-order {
     width: 172px;
     height: 148px;
-
   }
 
   .card-order-1 {
@@ -1923,7 +1920,6 @@ footer {
   .form-order {
     display: grid;
     width: 360px;
-
   }
 
   .list-order {
