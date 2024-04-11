@@ -1,3 +1,1039 @@
+<<<<<<< Updated upstream
+=======
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ae1332;
+  min-width: 375px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* -------------------> Header style SEBASTIAN STOBIECKI <------------------- */
+
+.header-title {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.header-style {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.logo-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #ae1332;
+}
+
+.main-logo {
+  height: 16px;
+  width: 16px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  background-color: #ffffff;
+}
+
+.name-header {
+  color: rgba(174, 19, 50, 1);
+  font-family: "DM Sans";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: 8px;
+}
+
+.header-menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 20px;
+  position: relative;
+}
+
+.menu-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 32px;
+  width: 100%;
+  position: relative;
+}
+
+.menu-point {
+  color: #ae1332;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+.title-icon {
+  height: 1rem;
+}
+
+.busket-icon {
+  width: 28px;
+  height: 28px;
+  padding: 0 32px;
+}
+
+/* HAMBURGER */
+.header-menu-ham {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: 100vh;
+  padding-top: 120px;
+  margin: 0;
+}
+
+.hamburger-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-hamburger {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  background-color: #ae1332;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateX(100%);
+}
+/*
+.menu-hamburger.is-open-ham {
+  transform: translateX(0);
+} */
+
+.ham-list {
+  justify-content: space-between;
+}
+
+.menu-container-ham-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 0 20px;
+}
+
+.ham-close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* -------------------> Hero style <------------------- */
+/*Part1*/
+
+.shopnow-btn {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 560px;
+  left: 148px;
+}
+
+.shopnow-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #ae1332;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  transform: rotate(-14deg);
+}
+
+.header-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.red-head-img {
+  border-radius: 500px;
+  border: 1px solid rgb(255, 255, 255);
+
+  padding: 12px;
+  width: 311px;
+  height: 484px;
+  z-index: -1;
+  position: absolute;
+  left: 32px;
+  top: 116px;
+}
+
+.red-head-container {
+  position: absolute;
+  top: 66px;
+  left: 32px;
+  z-index: -1;
+}
+
+.banana-img {
+  position: absolute;
+  width: 66px;
+  height: 44px;
+  left: 13px;
+  top: 116px;
+  transform: rotate(20deg);
+  z-index: -1;
+  filter: blur(2px);
+}
+
+.strawberry-img {
+  position: absolute;
+  left: 299px;
+  top: 66px;
+  z-index: -1;
+  width: 56px;
+  height: 56px;
+  filter: blur(2px);
+}
+
+.part-one {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hero {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+}
+
+.hero-photo {
+  height: 640px;
+  width: 375px;
+  position: relative;
+}
+
+.right-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 44px;
+}
+
+.left-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 44px;
+}
+/*PART 2 TEXT*/
+
+.txt-style {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  width: 279px;
+  height: 90px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+.txt-header {
+  padding: 0 48px;
+  margin: 0 auto;
+}
+
+/*PART 3 ARBUZ*/
+.watermelon {
+  padding: 48px;
+  margin: 0 auto;
+  width: 249px;
+  height: 387px;
+  background-color: #a4cb66;
+  border-radius: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fruit-txt {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  width: 155px;
+}
+
+/* PART 4 ORGANIC PRODUCTS BASKET FRUITS */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.blocks {
+  margin: 0 auto;
+}
+
+.blocks-list {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  column-gap: 10px;
+}
+
+.block-item {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 1000px;
+  padding: 12px 32px;
+  text-align: center;
+  margin: 8px;
+}
+
+/*PART 5 STRAWBERRY BASKET */
+.basketberry {
+  padding: 48px;
+  margin: 0 auto;
+  width: 249px;
+  height: 387px;
+  background-color: #f5ce13;
+  border-radius: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ---------- MOBILE *375px* ---------- */
+
+@media screen and (max-width: 786px) {
+  .busket-icon {
+    display: none;
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+  .menu-container {
+    padding: 0 20px;
+  }
+
+  .menu-point-ham {
+    color: #ffffff;
+  }
+
+  .header-title {
+    position: absolute;
+    width: 335px;
+    height: 118px;
+    left: calc(40% - 335px / 3);
+    top: 50px;
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .menu-container {
+    width: 375px;
+  }
+
+  .block-item {
+    width: 112px;
+  }
+}
+
+/* ---------- TABLET *786px* ----------*/
+
+@media screen and (min-width: 787px) and (max-width: 1279px) {
+  .hamburger-btn {
+    display: none;
+  }
+
+  .menu-hamburger {
+    display: none;
+  }
+
+  .menu-container {
+    width: 787px;
+    margin: 0;
+  }
+
+  .header-title {
+    position: absolute;
+    width: 704px;
+    height: 168px;
+    left: calc(50% - 704px / 2);
+    top: 114px;
+    font-size: 50px;
+    line-height: 54px;
+  }
+
+  .strawberry-img {
+    width: 108px;
+    height: 108px;
+  }
+
+  .banana-img {
+    width: 132px;
+    height: 90px;
+  }
+
+  .shopnow-btn {
+    width: 114px;
+    height: 114px;
+  }
+
+  .shopnow-text {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .hero {
+    position: relative;
+    width: 768px;
+    height: 1612px;
+  }
+
+  .hero-photo {
+    width: 786px;
+    height: 1562px;
+  }
+
+  .header-title {
+    width: 704px;
+    height: 168px;
+    position: absolute;
+    top: 64px;
+    left: calc(50% - 704px / 2);
+  }
+
+  .shopnow-btn {
+    position: absolute;
+    top: 745px;
+    left: 327px;
+    width: 114px;
+    height: 114px;
+  }
+
+  .red-head-img {
+    position: absolute;
+    top: 122px;
+    left: 158px;
+    width: 452px;
+    height: 702px;
+  }
+
+  .banana-img {
+    position: absolute;
+    top: 169px;
+    left: 27.22px;
+  }
+
+  .strawberry-img {
+    position: absolute;
+    top: 55px;
+    left: 623px;
+  }
+
+  .left-hero {
+    position: absolute;
+    left: 32px;
+    top: 903px;
+  }
+
+  .txt-header {
+    padding: 0px;
+  }
+
+  .right-hero {
+    position: absolute;
+    top: 903px;
+    left: 455px;
+    flex-direction: column-reverse;
+  }
+
+  .blocks-list {
+    justify-content: flex-end;
+    column-gap: 0;
+  }
+}
+
+/* --------- DESKTOP *1280px* ----------*/
+@media screen and (min-width: 1280px) {
+  .hamburger-btn {
+    display: none;
+  }
+
+  .menu-hamburger {
+    display: none;
+  }
+
+  .header-style {
+    margin: 0 auto;
+  }
+
+  .menu-container {
+    width: 1280px;
+  }
+
+  .header-title {
+    position: absolute;
+    width: 898px;
+    height: 198px;
+    left: calc(50% - 898px / 2);
+    top: 64px;
+    font-size: 64px;
+    line-height: 80px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .hero-photo {
+    height: 1097px;
+    width: 1275px;
+  }
+  .red-head-img {
+    width: 452px;
+    height: 702px;
+    position: absolute;
+    left: 414px;
+    top: 122px;
+  }
+
+  .strawberry-img {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 39px;
+    left: 937px;
+  }
+
+  .banana-img {
+    width: 183.21px;
+    height: 124.61px;
+    position: absolute;
+    top: 191px;
+    left: 213px;
+  }
+
+  .shopnow-btn {
+    position: absolute;
+    top: 745px;
+    left: 583px;
+    width: 114px;
+    height: 114px;
+    font-size: 28px;
+  }
+
+  .shopnow-text {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .hero {
+    position: relative;
+    width: 1275px;
+    height: 1097px;
+  }
+
+  .left-hero {
+    position: absolute;
+    top: 408px;
+    left: 62px;
+  }
+
+  .right-hero {
+    position: absolute;
+    top: 336px;
+    left: 895px;
+    flex-direction: column-reverse;
+    width: 375px;
+  }
+
+  .txt-style {
+    width: 222px;
+    height: 108px;
+  }
+
+  .blocks-list {
+    justify-content: flex-end;
+    column-gap: 0;
+  }
+}
+/* -------------------> koniec Header style SEBASTIAN STOBIECKI <------------------- */
+
+/* SEKCJA2 MIKOLAJ DROZD */
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+.second-section {
+  padding: 0 20px;
+  max-width: 335px;
+  margin-top: 80px;
+}
+
+.txt-div {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 14px;
+  width: 335px;
+}
+
+.big-txt {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  text-indent: 6px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0px 4px #0000001a;
+}
+
+.smaller-txt {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-indent: 6px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-shadow: 0px 4px #0000001a;
+  margin-bottom: 44px;
+}
+
+.steps-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 44px;
+  width: 335px;
+}
+
+.steps-list {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  height: 112px;
+  background-color: #ffffff;
+  padding: 0 20px;
+}
+
+.step-div {
+  text-align: center;
+  max-width: 136px;
+  max-height: 48px;
+  border-radius: 200px;
+  padding: 15px 42px 15px 42px;
+  background-color: #ae1332;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-wrap: nowrap;
+  margin-right: 14px;
+}
+
+.step-div_2 {
+  background-color: #a1c864;
+}
+
+.step-div_3 {
+  background-color: #f5ce13;
+}
+
+.p-step {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: black;
+  text-indent: 6px;
+  line-height: 18px;
+  font-weight: 400;
+  text-shadow: 0px 4px #0000001a;
+}
+
+.s2-gif {
+  border-radius: 20px;
+  width: 335px;
+  height: 476px;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+/* KONIEC sekcji 2 MIKOŁAJ DROZD */
+
+/*Sekcja 3 - PIOTR BŁOCH */
+
+/* BUTTON */
+
+.fruits-button {
+  min-width: 114px;
+  height: 114px;
+  background-color: #9dc262;
+  border: none;
+  border-radius: 57px;
+  display: block;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  cursor: pointer;
+
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+.fruits-button:hover {
+  background-color: #ffffff;
+  color: #9dc262;
+}
+
+.fruits-button > div {
+  transform: rotate(-15deg);
+  transform-origin: 0 0;
+}
+
+.fruits-button-svg {
+  margin-left: 0px;
+  fill: #ffffff;
+}
+
+.fruits-button:hover > .fruits-button-svg {
+  fill: #9dc262;
+}
+
+/* BUTTON */
+
+.fruits-container {
+  width: 1216px;
+  gap: 44px;
+  margin: 0 auto;
+}
+
+.fruits-text {
+  width: 624px;
+  margin: 0 auto;
+}
+
+.fruits-title {
+  text-transform: uppercase;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.fruits-paragraph {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #ffffff;
+  margin: 14px 0 44px 0;
+}
+
+.fruits-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  padding: 0;
+  justify-content: center;
+}
+
+.fruits-li-div {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 465px;
+  width: 389px;
+  border-radius: 20px;
+  margin-bottom: 0px;
+}
+
+.fruits-li-div > .fruits-li-h3 {
+  position: absolute;
+  top: 64px;
+  left: 24px;
+  margin: 0;
+
+  font-family: DM Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.fruits-li-div > .fruits-li-p {
+  position: absolute;
+  top: 109px;
+  left: 24px;
+  margin: 0;
+
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.fruits-li-div > .fruits-img {
+  position: absolute;
+  top: 137px;
+  left: 47px;
+  margin: 0;
+}
+
+.fruits-img > .fruits-oval {
+  position: absolute;
+  top: 237px;
+  left: 43.5px;
+  margin: 0;
+  display: flex;
+}
+
+.fruits-li-div > .fruits-price {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 393px;
+  left: 24px;
+  margin: 0;
+  width: 136px;
+  height: 48px;
+  background-color: #ffffff;
+  border-radius: 200px;
+}
+
+.fruits-li-price {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  color: #ae1332;
+  margin: 0 0;
+}
+
+.fruits-li {
+  padding: 0;
+}
+
+.fruits-li:nth-child(1) > .fruits-li-div {
+  background-color: #f8766b;
+}
+
+.fruits-li:nth-child(2) > .fruits-li-div {
+  background-color: #edd251;
+}
+
+.fruits-li:nth-child(3) > .fruits-li-div {
+  background-color: #9dc262;
+}
+
+.fruits-li:nth-child(4) > .fruits-li-div {
+  background-color: #bfd663;
+}
+
+.fruits-li:nth-child(5) > .fruits-li-div {
+  background-color: #e93f29;
+}
+
+.fruits-li:nth-child(6) > .fruits-li-div {
+  background-color: #db4f4b;
+}
+
+.fruits-li:nth-child(7) > .fruits-li-div {
+  background-color: #9b5366;
+}
+
+.fruits-li:nth-child(8) > .fruits-li-div {
+  background-color: #f47f4c;
+}
+
+.fruits-li:nth-child(9) > .fruits-li-div {
+  background-color: #98b37e;
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1279px) {
+  .fruits-container {
+    max-width: 768px;
+  }
+
+  .fruits-li-div {
+    height: 465px;
+    width: 344px;
+  }
+
+  .fruits-li-div > .fruits-img {
+    position: absolute;
+    top: 137px;
+    left: 25px;
+    margin: 0;
+  }
+
+  .fruits-li:nth-child(9) > .fruits-li-div {
+    display: none;
+  }
+}
+
+/* SMARTPHONE */
+@media (max-width: 767px) {
+  .fruits-container {
+    max-width: 375px;
+  }
+
+  .fruits-li-div {
+    height: 465px;
+    width: 335px;
+  }
+
+  .fruits-text {
+    width: 335px;
+    margin: 0 auto;
+  }
+
+  .fruits-li-div > .fruits-img {
+    position: absolute;
+    top: 122px;
+    left: 20px;
+    margin: 0;
+  }
+
+  .fruits-li:nth-child(n + 7) > .fruits-li-div {
+    display: none;
+  }
+}
+
+/*Koniec sekcji 3 - PIOTR BŁOCH*/
+
 /*Sekcja 4 - SZYMON PODBIELSKI*/
 body {
   background-color: #ae1332;
@@ -22,6 +1058,190 @@ body {
   color: #fff;
   position: relative;
   margin-bottom: -39px;
+}
+
+.contacts-images {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  height: 502px;
+  padding-bottom: 80px;
+}
+
+.kiwi-photo {
+  border-radius: 20px;
+  width: 792px;
+  height: 502px;
+  object-fit: cover;
+}
+
+.blueberries-photo {
+  border-radius: 20px;
+  object-fit: cover;
+  height: 502px;
+}
+
+.contacts-paragraph {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #fff;
+  max-width: 492px;
+  margin: auto;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.contacts-label {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 150px;
+}
+
+.contacts-email {
+  background-color: inherit;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.04em;
+  color: #fff;
+  border-left: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
+  border-right: none;
+  border-radius: 30px 0 0 30px;
+  height: 48px;
+  width: 220px;
+  padding-left: 24px;
+}
+
+.contacts-email::placeholder {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+
+.contacts-email:invalid {
+  border-color: red;
+}
+
+.contacts-button {
+  background-color: #9dc162;
+  border: none;
+  border-radius: 30px;
+  width: 102px;
+  color: #ffffff;
+  margin-left: -30px;
+  cursor: pointer;
+}
+
+.contacts-button:hover {
+  background-color: #ffffff;
+  color: #9dc162;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .contacts-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    width: 648px;
+    height: 108px;
+    margin-bottom: -29px;
+  }
+
+  .contacts-images {
+    height: 480px;
+    max-width: 704px;
+    margin: auto;
+  }
+
+  .kiwi-photo {
+    width: 344px;
+    height: 480px;
+  }
+
+  .blueberries-photo {
+    width: 344px;
+    height: 480px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .contacts-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    max-width: 335px;
+    max-height: 90px;
+  }
+  .contacts-images {
+    width: 335px;
+    height: 476px;
+    margin: auto;
+  }
+
+  .kiwi-photo {
+    width: 335px;
+    height: 476px;
+  }
+
+  .blueberries-photo {
+    display: none;
+  }
+
+  .contacts-paragraph {
+    display: none;
+  }
+
+  .contacts-form {
+    display: none;
+  }
+}
+/*Koniec sekcji 4 - SZYMON PODBIELSKI*/
+>>>>>>> Stashed changes
+/*Sekcja 4 - SZYMON PODBIELSKI*/
+body {
+  background-color: #ae1332;
+}
+
+.contacts {
+  background-color: #ae1332;
+  margin-top: 150px;
+}
+
+.contacts-title {
+  text-transform: uppercase;
+  margin: auto;
+  max-width: 740px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  margin-bottom: -39px;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
 }
 
 .contacts-images {
@@ -201,8 +1421,8 @@ footer {
 }
 
 .footer-social-media-icon {
-  width: 44px;
-  height: 44px;
+  width: 28px;
+  height: 28px;
   padding: 8px;
   border: 1px solid #ae1332;
   border-radius: 10px;
@@ -248,7 +1468,7 @@ footer {
 }
 .instagram-circle {
   position: relative;
-  right: 26px;
+  right: 27px;
   margin: 0;
   padding: 0;
   width: 8px;
@@ -318,7 +1538,7 @@ footer {
     text-transform: uppercase;
     text-align: center;
     color: #fff;
-    max-width: 335px;
+    max-width: 300px;
     max-height: 90px;
   }
   .contacts-images {
@@ -383,13 +1603,369 @@ footer {
   }
 
   .footer-social-media-icon {
-    width: 40px;
-    height: 40px;
+    width: 24px;
+    height: 24px;
   }
 
   .instagram-circle {
     width: 8px;
     height: 8px;
-    right: 24px;
+    right: 25px;
+  }
+
+  .footer-location {
+    text-align: center;
   }
 }
+<<<<<<< Updated upstream
+=======
+
+/* koniec stopki - SZYMON PODBIELSKI */
+/* <!-- Sekcja-do-zamawiania-i-pop-up Rafał Szymanek --> */
+.modal {
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 703px;
+  height: 853px;
+  position: relative;
+}
+
+.card-order-1 {
+  background-color: #f8766b;
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.card-order-2 {
+  background-color: #edd251;
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.card-order-3 {
+  background-color: #9dc262;
+  border-radius: 20px;
+  display: flex;
+}
+
+.pop-up-thank-you {
+  background-color: #e03f5e;
+  border-radius: 20px;
+  position: relative;
+}
+
+.pop-up-thank-you {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.list-order {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin: 12px 20px;
+}
+
+.thank-you {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+}
+
+.p-thanks {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form-order {
+  display: block;
+  margin-left: 20px;
+}
+
+.form-order-input {
+  border: 1px solid #000;
+  border-radius: 100px;
+  width: 295px;
+  height: 46px;
+  margin-bottom: 14px;
+  opacity: 0.3;
+}
+
+.text-area {
+  border-radius: 20px;
+  width: 295px;
+  height: 132px;
+}
+
+.submit-button {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.04em;
+  text-transform: capitalize;
+  color: #fff;
+  border-radius: 100px;
+  padding: 12px 24px;
+  width: 92px;
+  height: 42px;
+  background: #9dc162;
+  border: none;
+  margin-left: 20px;
+}
+
+.head-modal {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #ae1332;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+  padding: 40px 20px;
+}
+
+.head-order {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 133%;
+  letter-spacing: -0.04em;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.p-order {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.x-button {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+}
+
+h2 {
+  margin: 0;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .modal {
+    width: 335px;
+    height: 902px;
+    margin: 0 auto;
+  }
+
+  .pop-up-thank-you {
+    width: 335px;
+    height: 426px;
+    margin: 40px auto;
+  }
+
+  .women-banana {
+    display: none;
+  }
+
+  .raspberry {
+    width: 207px;
+    height: 176px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .text-thankyou {
+    width: 295px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .modal {
+    width: 703px;
+    height: 853px;
+    margin: 0 auto;
+  }
+
+  .pop-up-thank-you {
+    width: 600px;
+    height: 545px;
+    margin: 40px auto;
+  }
+
+  .thank-you {
+    font-size: 40px;
+    line-height: 110%;
+  }
+
+  .head-modal {
+    font-size: 40px;
+    line-height: 110%;
+  }
+
+  .form-and-img {
+    display: flex;
+  }
+
+  .form-order {
+    display: grid;
+    width: 360px;
+    height: 399px;
+  }
+
+  .list-order {
+    display: flex;
+    gap: 12px;
+  }
+
+  .text-thankyou {
+    width: 391px;
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .raspberry {
+    width: 278px;
+    height: 239px;
+    margin: 0 auto;
+    margin-top: 68px;
+  }
+
+  .card-order-1 {
+    flex-wrap: wrap;
+  }
+
+  .card-order-2 {
+    flex-wrap: wrap;
+  }
+
+  .card-order-3 {
+    flex-wrap: wrap;
+  }
+
+  .img-card-order-1 {
+    width: 133px;
+    height: 148px;
+  }
+
+  .img-card-order {
+    width: 172px;
+    height: 148px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .modal {
+    width: 891px;
+    height: 911px;
+    margin: 0 auto;
+  }
+
+  .pop-up-thank-you {
+    width: 600px;
+    height: 545px;
+    margin: 40px auto;
+  }
+
+  .thank-you {
+    font-size: 40px;
+    line-height: 110%;
+  }
+
+  .head-modal {
+    font-size: 40px;
+    line-height: 110%;
+  }
+
+  .form-and-img {
+    display: flex;
+  }
+
+  .form-order {
+    display: grid;
+    width: 360px;
+    height: 399px;
+  }
+
+  .list-order {
+    display: flex;
+    gap: 12px;
+    width: 811px;
+    height: 308px;
+  }
+
+  .text-thankyou {
+    width: 391px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .raspberry {
+    width: 278px;
+    height: 239px;
+    margin: 0 auto;
+    margin-top: 68px;
+  }
+
+  .card-order-1 {
+    flex-wrap: wrap;
+  }
+
+  .card-order-2 {
+    flex-wrap: wrap;
+  }
+
+  .card-order-3 {
+    flex-wrap: wrap;
+  }
+
+  .img-card-order-1 {
+    width: 173px;
+    height: 196px;
+  }
+
+  .img-card-order {
+    width: 229px;
+    height: 196px;
+  }
+}
+/* <!-- Koniec sekcji-do-zamawiania-i-pop-up Rafał Szymanek --> */
+>>>>>>> Stashed changes
