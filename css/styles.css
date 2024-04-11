@@ -61,6 +61,7 @@
   letter-spacing: -0.04em;
   text-align: center;
   color: #ffffff;
+  
 }
 .fruits-paragraph {
   font-family: DM Sans;
@@ -70,6 +71,7 @@
   letter-spacing: -0.04em;
   text-align: center;
   color: #ffffff;
+  margin: 14px 0 44px 0;
 }
 
 .fruits-list {
