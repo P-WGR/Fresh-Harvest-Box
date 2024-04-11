@@ -9,4 +9,3 @@ Osoby w grupie:
 • Rafał Szymanek - Okno do zamawiania [POP-UP]
 • Sebastian Stobiecki - Header + Sekcja #1
 • Szymon Podbielski - Sekcja #4 + Stopka
-• Waldemar Ozimek - >>> JESZCZE NIE PRZYDZIELONY <<<
