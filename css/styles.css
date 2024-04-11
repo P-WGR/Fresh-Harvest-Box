@@ -183,6 +183,11 @@ img {
   transform: rotate(-14deg);
 }
 
+.shopnow-text:hover {
+  color: rgba(164, 203, 102, 1);
+
+}
+
 .header-title {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
