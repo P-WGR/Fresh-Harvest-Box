@@ -571,6 +571,10 @@ img {
     display: none;
   }
 
+  .part-one {
+    height: 1067px;
+  }
+
   .menu-container {
     width: 1280px;
     padding: 0 35px;
