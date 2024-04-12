@@ -133,10 +133,9 @@ img {
   transform: translateX(100%);
 }
 
-/*
 .menu-hamburger.is-open-ham {
   transform: translateX(0);
-} */
+} 
 
 .ham-list {
   justify-content: space-between;
