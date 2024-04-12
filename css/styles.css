@@ -1175,6 +1175,7 @@ body {
   color: #fff;
   position: relative;
   margin-bottom: -39px;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
 }
 
 .contacts-images {
@@ -1273,13 +1274,11 @@ footer {
   justify-content: center;
   height: 377px;
 }
-
 .footer-container {
   width: 1280px;
   display: flex;
   justify-content: space-between;
 }
-
 .footer-img-and-logo {
   padding: 80px 0 20px 32px;
   display: flex;
@@ -1296,18 +1295,15 @@ footer {
   border-radius: 100px;
   padding-bottom: 20px;
 }
-
 .footer-logo {
   display: flex;
   gap: 8px;
   text-decoration: none;
 }
-
 .footer-logo-icon {
   width: 16px;
   height: 16px;
 }
-
 .footer-logo-text {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
@@ -1319,7 +1315,6 @@ footer {
   color: #ae1332;
   margin: 0;
 }
-
 .footer-nav-list {
   list-style: none;
   display: flex;
@@ -1352,7 +1347,6 @@ footer {
   margin: 0;
   padding: 0;
 }
-
 .footer-social-media-icon {
   width: 44px;
   height: 44px;
@@ -1361,14 +1355,11 @@ footer {
   border-radius: 10px;
   cursor: pointer;
 }
-
 .footer-social-media-icon:hover {
   background-color: #ae13321a;
 }
-
 .footer-tel-and-location {
 }
-
 .footer-tel {
   display: block;
   margin-top: 40px;
@@ -1381,7 +1372,6 @@ footer {
   color: #ae1332;
   padding-bottom: 20px;
 }
-
 .footer-location {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
@@ -1399,7 +1389,6 @@ footer {
   margin: 0;
   padding: 0;
 }
-
 .instagram-circle {
   position: relative;
   right: 26px;
@@ -1408,11 +1397,12 @@ footer {
   width: 8px;
   height: 8px;
 }
-
 .youtube {
   position: relative;
   right: 8px;
 }
+
+/* koniec stopki - SZYMON PODBIELSKI */
 
 @media (min-width: 768px) and (max-width: 1279px) {
   .contacts-title {
@@ -1474,7 +1464,6 @@ footer {
     max-width: 335px;
     max-height: 90px;
   }
-
   .contacts-images {
     width: 335px;
     height: 476px;
@@ -1547,7 +1536,6 @@ footer {
     right: 24px;
   }
 }
-
 /* koniec stopki - SZYMON PODBIELSKI */
 /* <!-- Sekcja-do-zamawiania-i-pop-up Rafał Szymanek --> */
 .modal {
